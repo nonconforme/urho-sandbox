@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<node id="2">
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="" />
+	<attribute name="Position" value="0 0 0" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="2 2 1" />
+	<attribute name="Variables" />
+	<node id="16777216">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="" />
+		<attribute name="Position" value="1 0 2" />
+		<attribute name="Rotation" value="0.707107 -0.707107 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="16777216">
+			<attribute name="Model" value="Model;cce19b62-b56e-11e4-87b4-089e01d3de8a_Scratch/Environments/Models/TestStaticModel_01.mdl" />
+			<attribute name="Material" value="Material;" />
+		</component>
+	</node>
+</node>

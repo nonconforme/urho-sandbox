@@ -1,0 +1,13 @@
+[Project.DefaultSettings]
+ExportRoot = ./../Data/
+
+[Package.BaseData]
+ExportRoot = ./../Data/BaseData/Base/
+
+[Package.CtrlsData]
+ExportRoot = ./../Data/CtrlsData/Ctrls/
+Dependencies = BaseData;ScratchData
+
+[Package.ScratchData]
+ExportRoot = ./../Data/ScratchData/Scratch/
+Dependencies = BaseData
