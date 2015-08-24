@@ -14,6 +14,7 @@ symlink_dirs = [
     (os.path.join('Data', 'Data'), 'Data')
 ]
 
+
 if __name__ == '__main__':
     if os.path.isdir(URHO_PATH_DATA) and os.path.exists(URHO_PATH_DATA):
         for item in symlink_dirs:
@@ -31,5 +32,7 @@ if __name__ == '__main__':
 
                 print('Link Cmd :: ' + link_cmd)
                 os.system(link_cmd)
+            elif 'linux' in sys.platform:
+                os.symlink(os.path.join(URHO_PATH_DATA, item[1]), os.path.join('.', item[0]))
             else:
                 pass

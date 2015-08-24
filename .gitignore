@@ -1,6 +1,8 @@
 # URHO PROJECT FILES ================================================
-Data/CoreData/*
-Data/Data/*
+# Data/CoreData/*
+# Data/Data/*
+Data/CoreData
+Data/Data
 Screenshots/*
 
 # COMPILED SOURCE ===================================================
