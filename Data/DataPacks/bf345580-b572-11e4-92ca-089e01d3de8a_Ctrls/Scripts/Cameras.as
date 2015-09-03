@@ -1,0 +1,3 @@
+class SideScrollCamera : ScriptObject {
+
+}

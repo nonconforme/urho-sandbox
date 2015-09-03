@@ -33,7 +33,9 @@ class MainEntry : ScriptObject {
         if (key == KEY_L) {
             if (!levelLoaded) {
                 // levelScene.LoadXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/EntryScene_01.xml"));
-                levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/PrefabLoadTest_01.xml"));
+                // levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/PrefabLoadTest_01.xml"));
+                // levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/PrefabLoadTest_02.xml"));
+                levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
                 levelLoaded = true;
             }
             else {

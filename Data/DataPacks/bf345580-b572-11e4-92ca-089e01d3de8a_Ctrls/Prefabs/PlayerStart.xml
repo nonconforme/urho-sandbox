@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<node id="2">
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="PlayerStart" />
+	<attribute name="Position" value="0 0 0" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="1 1 1" />
+	<attribute name="Variables" />
+	<component type="CollisionShape" id="3">
+		<attribute name="Shape Type" value="Cylinder" />
+		<attribute name="Size" value="2 2 1" />
+		<attribute name="Offset Position" value="0 1 0" />
+	</component>
+	<component type="ScriptInstance" id="5">
+		<attribute name="Delayed Method Calls" value="0" />
+		<attribute name="Script File" value="ScriptFile;Global/Scripts/Player.as" />
+		<attribute name="Class Name" value="PlayerStart" />
+	</component>
+</node>

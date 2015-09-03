@@ -6,6 +6,7 @@
 
 Scene@ mainScene;
 Node@ gameManager;
+Node@ prefabManager;
 Array<Scene@> gameScenes;
 
 GameInfo@ gameInfo;
@@ -44,10 +45,21 @@ void CreateStartupScene() {
     script.defaultScriptFile = scriptFile;
 
     mainScene.CreateComponent("Octree");
+
+    // game manager
     gameManager = mainScene.CreateChild("GameManager");
     ScriptInstance@ gmScriptInstance = gameManager.CreateComponent("ScriptInstance");
     gmScriptInstance.CreateObject(scriptFile, "GameManager");
     GameManager@ gameManager = cast<GameManager>(gmScriptInstance.scriptObject);
+
+    // prefab manager
+    ScriptFile@ prefabScriptFile = cache.GetResource("ScriptFile", "Global/Scripts/Prefabs.as");
+    if (prefabScriptFile !is null) {
+        prefabManager = mainScene.CreateChild("PrefabManager");
+        ScriptInstance@ prefabManScriptInstance = prefabManager.CreateComponent("ScriptInstance");
+        prefabManScriptInstance.CreateObject(prefabScriptFile, "PrefabManager");
+        // PrefabManager@ gameManager = cast<GameManager>(gmScriptInstance.scriptObject);
+    }
 
     log.Info("List of game scenes : " + gameScenes.length);
     log.Info("Scene Name : " + gameScenes[0].name);

@@ -1,12 +1,16 @@
 
-require "Global/LuaScripts/Utilities/Sample"
-require "Global/LuaScripts/GameClasses"
+
+
+require('Global/LuaScripts/Utilities/Sample')
+require('Global/LuaScripts/GameClasses')
 
 gameScenes        = {}
 defaultScene      = nil;
 defaultScriptFile = nil;
 
 function Start()
+   cache:SetAutoReloadResources(true)
+
    SampleStart()
    CreateStartupScene()
 
@@ -31,9 +35,11 @@ function CallMainScript()
    for i, argument in ipairs(arguments) do
        if string.sub(argument, 1, 1) == '-'  then
            argument = string.lower(string.sub(argument, 2))
-           if argument == "startpackuuid" then
+           if argument == 'startpackuuid' then
               startPackUUID = arguments[i + 1]
               PrintLine(arguments[i + 1])
+           elseif argument == 'mobdebug' then
+              require('mobdebug').start()   
            end
        end
    end

@@ -1,5 +1,9 @@
 class TestScriptComponent_01 : ScriptObject
 {
+    Vector3 rotationSpeed = Vector3(0.0f, 300.0f, 0.0f);
+    String dataPack;
+    String resourcePath;
+
     void Start() {
         log.Info("Started script instance.");
         SpawnPrefab();
@@ -10,7 +14,9 @@ class TestScriptComponent_01 : ScriptObject
     }
 
     void Update(float timeStep) {
+        // log.Info("Time Stuff : " + timeStep);
 
+        node.Rotate(Quaternion(rotationSpeed.x * timeStep, rotationSpeed.y * timeStep, rotationSpeed.z * timeStep));
     }
 
     void SpawnPrefab() {

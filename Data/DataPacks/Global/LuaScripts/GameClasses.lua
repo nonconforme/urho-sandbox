@@ -5,6 +5,8 @@ GameInfo = ScriptObject()
 
 function GameInfo:Start()
    self.gameName = 'GameName'
+
+   PrintLine('Something')
 end
 
 
@@ -83,3 +85,19 @@ end
 --     //     log.Info("Updating the Game Manager : " + timeStep);
 --     // }
 -- }
+
+
+-- ======================================================
+Rotator = ScriptObject()
+
+function Rotator:Start()
+   self.rotationSpeed = {0.0, 300.0, 0.0}
+   PrintLine('Something')
+end
+
+function Rotator:Update(timeStep)
+   local x = self.rotationSpeed[1] * timeStep
+   local y = self.rotationSpeed[2] * timeStep
+   local z = self.rotationSpeed[3] * timeStep
+   self.node:Rotate(Quaternion(x, y, z))
+end
