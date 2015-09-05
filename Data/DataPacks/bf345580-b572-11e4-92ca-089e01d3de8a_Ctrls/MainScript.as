@@ -40,6 +40,8 @@ class MainEntry : ScriptObject {
             }
             else {
                 if (!levelScene.asyncLoading) {
+                    log.Info("Unloading Scene.");
+
                     levelScene.RemoveAllChildren();
                     levelLoaded = false;
                 }

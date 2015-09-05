@@ -1,19 +1,123 @@
-class PrefabManager : ScriptObject {
-    void Start() {
-        log.Info("Start prefab manager");
+const StringHash PREFAB_RES("PrefabResource");
+const StringHash PREFAB_GROUP("PrefabGroup");
+// const String PREFAB_RES = "PrefabResource";
 
-        // SubscribeToEvent(node.scene, "NodeAdded", "HandleNodeAdded");
-        SubscribeToEvent("NodeAdded", "HandleNodeAdded");
-        // SubscribeToEvent("NodeAdded", "HandleUpdate");
+class PrefabSpawner : ScriptObject {
+    void Start() {
+        // log.Info("Start Prefab Spawner");
+        SubscribeToEvent(node, "UpdatePrefabs", "HandleUpdatePrefabs");
     }
 
     void Stop() {
     }
 
-    void HandleNodeAdded(StringHash eventType, VariantMap& eventData)
-    {
-        Node@ newnode = eventData["Node"].GetPtr();
-        log.Info("Node added to scene : " + newnode.name);
+    void ApplyAttributes() {
+        CheckForPrefabs(node);
+    }
+
+    void HandleUpdatePrefabs(StringHash eventType, VariantMap& eventData) {
+        CheckForPrefabs(node);
+    }
+
+    void CheckForPrefabs(Node@ node) {
+        if (node is null) { return; }
+
+        Array<Node@> children = node.GetChildren();
+
+        for (uint i = 0; i < children.length; ++i) {
+            if (children[i].vars.Contains(PREFAB_GROUP) && children[i].vars[PREFAB_GROUP].GetBool()) {
+                CheckForPrefabs(children[i]);
+
+                // Array<Node@> groupChildren = children[i].GetChildren();
+                // for (uint x = 0; x < groupChildren.length; ++x) {
+                //     SpawnPrefab(groupChildren[x]);
+                // }
+            }
+
+            SpawnPrefab(children[i]);
+        }
+    }
+
+    void SpawnPrefab(Node@ newnode) {
+        if (!newnode.vars.Contains(PREFAB_RES)) {
+            return;
+        }
+
+        String prefabResource = newnode.vars[PREFAB_RES].GetString();
+        if (!prefabResource.empty) {
+            newnode.RemoveAllChildren();
+
+            File@ resFile = cache.GetFile(prefabResource);
+            if (resFile !is null) {
+                Node@ prefabNode = newnode.scene.InstantiateXML(resFile, newnode.position, newnode.rotation);
+                prefabNode.temporary = true;
+                prefabNode.parent = newnode;
+            }
+        }
+    }
+}
+
+class PrefabManager : ScriptObject {
+    Array<Node@> addedNodes;
+
+    void Start() {
+        log.Info("Start prefab manager");
+
+        // SubscribeToEvent(node, "NodeAdded", "HandleNodeAdded");
+        // SubscribeToEvent("NodeRemoved", "HandleNodeRemoved");
+
+        DelayedExecute(0.5, true, "void CheckChildren()");
+    }
+
+    void Stop() {
+    }
+
+    void CheckChildren() {
+        Array<Node@> children = node.GetChildren();
+
+        for (uint i = 0; i < children.length; ++i) {
+            SpawnPrefab(children[i]);
+        }
+    }
+
+    // void Update(float timeStep) {
+    //     if (!addedNodes.empty) {
+    //         for (uint i = 0; i < addedNodes.length; ++i) {
+    //             if (addedNodes[i].vars.Contains(PREFAB_RES)) {
+    //                 SpawnPrefab(addedNodes[i]);
+    //             }
+
+    //             addedNodes.Erase(i);
+    //         }            
+    //     }
+    // }
+
+    // void HandleNodeAdded(StringHash eventType, VariantMap& eventData) {
+    //     Node@ addedNode = eventData["Node"].GetPtr();
+    //     addedNodes.Push(addedNode);
+
+    //     log.Info("Added node to scene : " + addedNode.typeName + " : " + addedNode.id);
+    // }
+
+    // void HandleNodeRemoved(StringHash eventType, VariantMap& eventData) {
+    // }
+
+    void SpawnPrefab(Node@ newnode) {
+        if (!newnode.vars.Contains(PREFAB_RES)) {
+            return;
+        }
+
+        String prefabResource = newnode.vars[PREFAB_RES].GetString();
+        if (!prefabResource.empty) {
+            newnode.RemoveAllChildren();
+
+            File@ resFile = cache.GetFile(prefabResource);
+            if (resFile !is null) {
+                Node@ prefabNode = newnode.scene.InstantiateXML(resFile, newnode.position, newnode.rotation);
+                prefabNode.temporary = true;
+                prefabNode.parent = newnode;
+            }
+        }
     }
 }
 
@@ -23,9 +127,9 @@ class PrefabInstance : ScriptObject {
     // void Start() { }
     // void Stop() { }
 
-    void ApplyAttributes() {
-        SpawnPrefab();
-    }
+    // void ApplyAttributes() {
+    //     SpawnPrefab();
+    // }
 
     void SpawnPrefab() {
         node.RemoveAllChildren();

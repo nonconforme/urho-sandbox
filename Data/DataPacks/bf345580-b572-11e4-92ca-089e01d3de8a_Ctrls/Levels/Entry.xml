@@ -5,10 +5,10 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="26.209" />
-	<attribute name="Next Replicated Node ID" value="542" />
-	<attribute name="Next Replicated Component ID" value="349" />
-	<attribute name="Next Local Node ID" value="16782443" />
-	<attribute name="Next Local Component ID" value="16782616" />
+	<attribute name="Next Replicated Node ID" value="662" />
+	<attribute name="Next Replicated Component ID" value="512" />
+	<attribute name="Next Local Node ID" value="16782866" />
+	<attribute name="Next Local Component ID" value="16782910" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="PrefabResource" />
 	<component type="Octree" id="1" />
@@ -17,6 +17,11 @@
 	<component type="Zone" id="166">
 		<attribute name="Bounding Box Min" value="-1000 -1000 -1000" />
 		<attribute name="Bounding Box Max" value="1000 1000 1000" />
+	</component>
+	<component type="ScriptInstance" id="349">
+		<attribute name="Delayed Method Calls" value="0" />
+		<attribute name="Script File" value="ScriptFile;Global/Scripts/Prefabs.as" />
+		<attribute name="Class Name" value="PrefabSpawner" />
 	</component>
 	<node id="16777218">
 		<attribute name="Is Enabled" value="true" />
@@ -27,11 +32,5 @@
 		<attribute name="Variables">
 			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/SectionTest_000.xml" />
 		</attribute>
-		<component type="ScriptInstance" id="16781756">
-			<attribute name="Delayed Method Calls" value="0" />
-			<attribute name="Script File" value="ScriptFile;Global/Scripts/Prefabs.as" />
-			<attribute name="Class Name" value="PrefabInstance" />
-			<attribute name="prefabResource" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/SectionTest_000.xml" />
-		</component>
 	</node>
 </scene>

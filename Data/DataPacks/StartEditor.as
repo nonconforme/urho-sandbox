@@ -2,7 +2,7 @@
 
 #include "Scripts/Editor/EditorHierarchyWindow.as"
 #include "Scripts/Editor/EditorView.as"
-#include "Scripts/Editor/EditorScene.as"
+#include "Global/Scripts/Editor/EditorScene.as"
 #include "Scripts/Editor/EditorActions.as"
 #include "Scripts/Editor/EditorUIElement.as"
 #include "Scripts/Editor/EditorGizmo.as"
@@ -60,6 +60,7 @@ void FirstFrame()
 {
     // Create root scene node
     CreateScene();
+
     // Load editor settings and preferences
     LoadConfig();
     // Create user interface for the editor
@@ -68,6 +69,7 @@ void FirstFrame()
     CreateRootUIElement();
     // Load the initial scene if provided
     ParseArguments();
+
     // Switch to real frame handler after initialization
     SubscribeToEvent("Update", "HandleUpdate");
     SubscribeToEvent("ReloadFinished", "HandleReloadFinished");
