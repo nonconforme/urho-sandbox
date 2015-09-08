@@ -14,4 +14,5 @@
 		<attribute name="Shape Type" value="TriangleMesh" />
 		<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
 	</component>
+	<component type="RigidBody" id="6" />
 </node>

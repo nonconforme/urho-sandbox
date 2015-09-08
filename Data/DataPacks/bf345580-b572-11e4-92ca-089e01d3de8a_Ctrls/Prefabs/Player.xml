@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<node id="1939">
+	<attribute name="Is Enabled" value="true" />
+	<attribute name="Name" value="Player" />
+	<attribute name="Position" value="-13.6735 10.3536 1.52056" />
+	<attribute name="Rotation" value="1 0 0 0" />
+	<attribute name="Scale" value="1 1 1" />
+	<attribute name="Variables" />
+	<component type="CollisionShape" id="3643">
+		<attribute name="Shape Type" value="Capsule" />
+		<attribute name="Size" value="1 2 1" />
+		<attribute name="Offset Position" value="0 1 0" />
+	</component>
+	<!-- <component type="ScriptInstance" id="3644"> -->
+	<!-- 	<attribute name="Delayed Method Calls" value="0" /> -->
+	<!-- 	<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayer.as" /> -->
+	<!-- 	<attribute name="Class Name" value="CtrlsPlayerController" /> -->
+	<!-- </component> -->
+	<component type="ScriptInstance" id="3645">
+		<attribute name="Delayed Method Calls" value="0" />
+		<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayer.as" />
+		<attribute name="Class Name" value="CtrlsPlayer" />
+	</component>
+	<component type="RigidBody" id="3646">
+		<attribute name="Physics Position" value="-13.6735 10.3536 1.52056" />
+		<attribute name="Mass" value="80" />
+		<attribute name="Linear Factor" value="1 1 0" />
+		<attribute name="Angular Factor" value="0 0 0" />
+	</component>
+	<node id="1940">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlaceholderModel" />
+		<attribute name="Position" value="0 1 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 2 1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="3647">
+			<attribute name="Model" value="Model;Models/Cylinder.mdl" />
+			<attribute name="Material" value="Material;Materials/DefaultGrey.xml" />
+		</component>
+	</node>
+</node>

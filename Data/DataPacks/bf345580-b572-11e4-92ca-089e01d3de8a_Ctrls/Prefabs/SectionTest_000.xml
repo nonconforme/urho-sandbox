@@ -6,41 +6,20 @@
 	<attribute name="Rotation" value="1 0 0 0" />
 	<attribute name="Scale" value="1 1 1" />
 	<attribute name="Variables" />
-	<component type="ScriptInstance" id="4">
+	<component type="ScriptInstance" id="3">
 		<attribute name="Delayed Method Calls" value="0" />
 		<attribute name="Script File" value="ScriptFile;Global/Scripts/Prefabs.as" />
 		<attribute name="Class Name" value="PrefabSpawner" />
 	</component>
 	<node id="16777216">
 		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="LightsGroup" />
+		<attribute name="Name" value="GlobalLightsPrefab" />
 		<attribute name="Position" value="0 0 0" />
 		<attribute name="Rotation" value="1 0 0 0" />
 		<attribute name="Scale" value="1 1 1" />
-		<attribute name="Variables" />
-		<node id="16777217">
-			<attribute name="Is Enabled" value="true" />
-			<attribute name="Name" value="" />
-			<attribute name="Position" value="16.5 12.5 0" />
-			<attribute name="Rotation" value="-0.132686 0.205741 0.313808 0.917384" />
-			<attribute name="Scale" value="1 1 1" />
-			<attribute name="Variables" />
-			<component type="Light" id="16777216">
-				<attribute name="Light Type" value="Directional" />
-				<attribute name="Color" value="0.5 0.5 0.75 1" />
-			</component>
-		</node>
-		<node id="16777218">
-			<attribute name="Is Enabled" value="true" />
-			<attribute name="Name" value="" />
-			<attribute name="Position" value="0 12.5 0" />
-			<attribute name="Rotation" value="0.668484 0.127684 -0.549845 0.484253" />
-			<attribute name="Scale" value="1 1 1" />
-			<attribute name="Variables" />
-			<component type="Light" id="16777217">
-				<attribute name="Light Type" value="Directional" />
-			</component>
-		</node>
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/GlobalLighting.xml" />
+		</attribute>
 	</node>
 	<node id="16777219">
 		<attribute name="Is Enabled" value="true" />
@@ -114,7 +93,7 @@
 	</node>
 	<node id="16777226">
 		<attribute name="Is Enabled" value="true" />
-		<attribute name="Name" value="PlatformGroup" />
+		<attribute name="Name" value="PlatformGroup.000" />
 		<attribute name="Position" value="0 0 0" />
 		<attribute name="Rotation" value="1 0 0 0" />
 		<attribute name="Scale" value="1 1 1" />
@@ -204,7 +183,7 @@
 		<node id="16777235">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Platform_000" />
-			<attribute name="Position" value="27 15.5 0" />
+			<attribute name="Position" value="-2.5 15.5 0" />
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables">
@@ -214,34 +193,14 @@
 		<node id="16777236">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Platform_000" />
-			<attribute name="Position" value="3 15.5 0" />
-			<attribute name="Rotation" value="1 0 0 0" />
-			<attribute name="Scale" value="1 1 1" />
-			<attribute name="Variables">
-				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
-			</attribute>
-		</node>
-		<node id="16777237">
-			<attribute name="Is Enabled" value="true" />
-			<attribute name="Name" value="LD_Platform_000" />
-			<attribute name="Position" value="11 15.5 0" />
-			<attribute name="Rotation" value="1 0 0 0" />
-			<attribute name="Scale" value="1 1 1" />
-			<attribute name="Variables">
-				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
-			</attribute>
-		</node>
-		<node id="16777238">
-			<attribute name="Is Enabled" value="true" />
-			<attribute name="Name" value="LD_Platform_000" />
-			<attribute name="Position" value="19 15.5 0" />
+			<attribute name="Position" value="13.5 15.5 0" />
 			<attribute name="Rotation" value="0.961992 0 0 -0.273076" />
 			<attribute name="Scale" value="1.60737 1 1" />
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777239">
+		<node id="16777237">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Platform_000" />
 			<attribute name="Position" value="-20.5 9 0" />
@@ -251,8 +210,88 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
 			</attribute>
 		</node>
+		<node id="16777238">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="53.5 9 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777239">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="35 15.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777240">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="45.5 9 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777241">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="27 15.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777242">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-10.5 15.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777243">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-18.5 15.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777244">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-26.5 15.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777245">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="5.5 15.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
 	</node>
-	<node id="16777240">
+	<node id="16777246">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="BackgroundGroup" />
 		<attribute name="Position" value="0 0 0" />
@@ -261,7 +300,7 @@
 		<attribute name="Variables">
 			<variant hash="70504091" type="Bool" value="true" />
 		</attribute>
-		<node id="16777241">
+		<node id="16777247">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="48 -40 10" />
@@ -271,7 +310,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777242">
+		<node id="16777248">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="-72 -40 10" />
@@ -281,7 +320,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777243">
+		<node id="16777249">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="8 -40 10" />
@@ -291,7 +330,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777244">
+		<node id="16777250">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="48 0 10" />
@@ -301,7 +340,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777245">
+		<node id="16777251">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="-72 0 10" />
@@ -311,7 +350,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777246">
+		<node id="16777252">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="8 0 10" />
@@ -321,7 +360,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777247">
+		<node id="16777253">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="48 40 10" />
@@ -331,7 +370,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777248">
+		<node id="16777254">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="-72 40 10" />
@@ -341,7 +380,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777249">
+		<node id="16777255">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="8 40 10" />
@@ -351,7 +390,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777250">
+		<node id="16777256">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="-32 -40 10" />
@@ -361,7 +400,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777251">
+		<node id="16777257">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="-32 0 10" />
@@ -371,7 +410,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
 		</node>
-		<node id="16777252">
+		<node id="16777258">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_BackgroundWall_000" />
 			<attribute name="Position" value="-32 40 10" />
@@ -388,13 +427,13 @@
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="500 500 500" />
 			<attribute name="Variables" />
-			<component type="StaticModel" id="3">
+			<component type="StaticModel" id="4">
 				<attribute name="Model" value="Model;Models/Sphere.mdl" />
 				<attribute name="Material" value="Material;Materials/Skybox.xml" />
 			</component>
 		</node>
 	</node>
-	<node id="16777253">
+	<node id="16777259">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="PlayerStartGroup" />
 		<attribute name="Position" value="0 0 0" />
@@ -403,7 +442,7 @@
 		<attribute name="Variables">
 			<variant hash="70504091" type="Bool" value="true" />
 		</attribute>
-		<node id="16777254">
+		<node id="16777260">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="32 10.5 2" />
@@ -413,7 +452,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
-		<node id="16777255">
+		<node id="16777261">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="-16.5 11 2" />
@@ -423,7 +462,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
-		<node id="16777256">
+		<node id="16777262">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="-7.5 11 2" />
@@ -433,7 +472,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
-		<node id="16777257">
+		<node id="16777263">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="0.5 11 2" />
@@ -443,7 +482,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
-		<node id="16777258">
+		<node id="16777264">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="12 5.5 2" />
@@ -453,7 +492,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
-		<node id="16777259">
+		<node id="16777265">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="12 17 2" />
@@ -463,7 +502,7 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
-		<node id="16777260">
+		<node id="16777266">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="PlayerStart" />
 			<attribute name="Position" value="32 17 2" />
@@ -473,5 +512,615 @@
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
 		</node>
+	</node>
+	<node id="16777267">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlatformGroup.000" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="70504091" type="Bool" value="true" />
+		</attribute>
+		<node id="16777268">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-32 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777269">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-48 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777270">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-40 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777271">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-74 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777272">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-82 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777273">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-55 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777274">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-71 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777275">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-63 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777276">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-72 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777277">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-56 27.5 0" />
+			<attribute name="Rotation" value="0.961992 0 0 -0.273076" />
+			<attribute name="Scale" value="1.60737 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777278">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-90 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777279">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-16 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777280">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-34.5 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777281">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-24 21 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777282">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-42.5 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777283">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-80 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777284">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-88 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777285">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-96 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777286">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-64 27.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+	</node>
+	<node id="16777287">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlatformGroup.000" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="70504091" type="Bool" value="true" />
+		</attribute>
+		<node id="16777288">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="27.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777289">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="11.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777290">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="19.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777291">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-14.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777292">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-22.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777293">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="4.5 27 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777294">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-11.5 27 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777295">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-3.5 27 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777296">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-12.5 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777297">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="3.5 38.5 0" />
+			<attribute name="Rotation" value="0.961992 0 0 -0.273076" />
+			<attribute name="Scale" value="1.60737 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777298">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-30.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777299">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="43.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777300">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="25 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777301">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="35.5 32 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777302">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="17 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777303">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-20.5 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777304">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-28.5 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777305">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-36.5 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777306">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-4.5 38.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+	</node>
+	<node id="16777307">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlatformGroup.000" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="70504091" type="Bool" value="true" />
+		</attribute>
+		<node id="16777308">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-21.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777309">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-37.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777310">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-29.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777311">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-63.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777312">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-71.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777313">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-44.5 42.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777314">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-60.5 42.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777315">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-52.5 42.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777316">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-61.5 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777317">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-45.5 54 0" />
+			<attribute name="Rotation" value="0.961992 0 0 -0.273076" />
+			<attribute name="Scale" value="1.60737 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777318">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-79.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777319">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-5.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777320">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-24 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777321">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-13.5 47.5 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777322">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-32 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777323">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-69.5 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777324">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-77.5 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777325">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-85.5 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+		<node id="16777326">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="-53.5 54 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+		</node>
+	</node>
+	<node id="4">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlayerPrefab" />
+		<attribute name="Position" value="-7.76333 11.0398 1.96883" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/Player.xml" />
+		</attribute>
 	</node>
 </node>

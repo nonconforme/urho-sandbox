@@ -4,14 +4,9 @@ class GameInfo {
 }
 
 class GameManager : ScriptObject {
-    Array<Scene@> gameScenes;
-
     void Start() {
         log.Info("Starting the Game Manager.");
         log.Info("Scene Name is : " + scene.name);
-
-        Scene@ subScene = Scene("SomeSubScene");
-        log.Info("Sub Scene Name is : " + scene.name);
     }
 
     void Stop() {
@@ -31,10 +26,6 @@ class GameManager : ScriptObject {
 
     void RemoveScene(Scene@ scene) {
 
-    }
-
-    Scene@ FindScene(String sceneName) {
-        return null;
     }
 
     // void Update(float timeStep) {

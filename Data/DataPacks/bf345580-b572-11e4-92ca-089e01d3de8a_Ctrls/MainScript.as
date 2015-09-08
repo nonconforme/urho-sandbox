@@ -1,3 +1,4 @@
+#include "Global/Scripts/Globals.as"
 #include "Global/Scripts/Utilities/Sample.as"
 #include "Global/Scripts/GameClasses.as"
 #include "StartGame.as"
@@ -15,7 +16,7 @@ class MainEntry : ScriptObject {
         levelScene = Scene("LevelScene");
 
         SubscribeToEvent("KeyDown", "HandleKeyDown");
-
+        
         cameraNode = Node();
         cameraNode.position = cameraNode.position + Vector3(0, 1, 0);
         Camera@ camera = cameraNode.CreateComponent("Camera");
@@ -25,6 +26,9 @@ class MainEntry : ScriptObject {
         SubscribeToEvents();
 
         graphics.SetWindowPosition(0, 0);
+
+        levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
+        levelLoaded = true;
     }
 
     void HandleKeyDown(StringHash eventType, VariantMap& eventData) {
@@ -66,7 +70,7 @@ class MainEntry : ScriptObject {
         float timeStep = eventData["TimeStep"].GetFloat();
 
         // Move the camera, scale movement with time step
-        MoveCamera(timeStep);
+        // MoveCamera(timeStep);
     }
 
     void MoveCamera(float timeStep)
