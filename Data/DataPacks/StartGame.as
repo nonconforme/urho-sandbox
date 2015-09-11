@@ -31,7 +31,7 @@ void Start()
 {
     SampleStart();
     CreateStartupScene();
-    // CallMainScript();
+    CallMainScript();
 }
 
 void CreateStartupScene() {

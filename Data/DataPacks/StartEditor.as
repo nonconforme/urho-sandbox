@@ -2,7 +2,7 @@
 
 #include "Scripts/Editor/EditorHierarchyWindow.as"
 #include "Scripts/Editor/EditorView.as"
-#include "Global/Scripts/Editor/EditorScene.as"
+#include "Scripts/Editor/EditorScene.as"
 #include "Scripts/Editor/EditorActions.as"
 #include "Scripts/Editor/EditorUIElement.as"
 #include "Scripts/Editor/EditorGizmo.as"
@@ -22,6 +22,8 @@
 #include "Scripts/Editor/EditorEventsHandlers.as"
 #include "Scripts/Editor/EditorViewDebugIcons.as"
 
+#include "Global/Scripts/Editor/EditorExtensions.as"
+
 String configFileName;
 
 void Start()
@@ -30,7 +32,8 @@ void Start()
 
     // Assign the value ASAP because configFileName is needed on exit, including exit on error
     configFileName = fileSystem.GetAppPreferencesDir("urho3d", "Editor") + "Config.xml";
-    localization.LoadJSONFile("EditorStrings.json");
+    // localization.LoadJSONFile("EditorStrings.json");
+    localization.LoadJSONFile("EditorStringsExt.json");
 
     if (engine.headless)
     {
@@ -77,6 +80,8 @@ void FirstFrame()
     SubscribeToEvent("ReloadFinished", "HandleReloadFinished");
     SubscribeToEvent("ReloadFailed", "HandleReloadFailed");
     EditorSubscribeToEvents();
+
+    AddEditorExtensions();
 }
 
 void Stop()

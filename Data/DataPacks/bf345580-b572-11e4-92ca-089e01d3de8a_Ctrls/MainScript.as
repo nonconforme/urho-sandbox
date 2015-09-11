@@ -1,9 +1,13 @@
-#include "Global/Scripts/Globals.as"
+// #include "Global/Scripts/Globals.as"
 #include "Global/Scripts/Utilities/Sample.as"
 #include "Global/Scripts/GameClasses.as"
 #include "StartGame.as"
 
 Scene@ levelScene;
+Node@ cameraNode;
+Node@ levelRoot;
+
+Array<Scene@> loadingScenes;
 
 bool levelLoaded = false;
 
@@ -13,21 +17,26 @@ class MainEntry : ScriptObject {
         log.Info("Scene Name is : " + scene.name);
         log.Info("This is loading the pack for Ctrls.");
 
-        levelScene = Scene("LevelScene");
+        // levelScene = Scene("LevelScene");
 
         SubscribeToEvent("KeyDown", "HandleKeyDown");
         
-        cameraNode = Node();
+        cameraNode = Node("GlobalCamera");
         cameraNode.position = cameraNode.position + Vector3(0, 1, 0);
         Camera@ camera = cameraNode.CreateComponent("Camera");
         camera.farClip = 300.0f;
-        renderer.viewports[0] = Viewport(levelScene, camera);
+        // renderer.viewports[0] = Viewport(levelScene, camera);
+        renderer.viewports[0] = Viewport(scene, camera);
+
+        // level node
+        levelRoot = Node("LevelRoot");
 
         SubscribeToEvents();
 
         graphics.SetWindowPosition(0, 0);
 
-        levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
+        // levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
+        scene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
         levelLoaded = true;
     }
 
@@ -39,14 +48,16 @@ class MainEntry : ScriptObject {
                 // levelScene.LoadXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/EntryScene_01.xml"));
                 // levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/PrefabLoadTest_01.xml"));
                 // levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scenes/PrefabLoadTest_02.xml"));
-                levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
+                // levelScene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
+                scene.LoadAsyncXML(cache.GetFile("bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Levels/Entry.xml"));
                 levelLoaded = true;
             }
             else {
                 if (!levelScene.asyncLoading) {
                     log.Info("Unloading Scene.");
 
-                    levelScene.RemoveAllChildren();
+                    // levelScene.RemoveAllChildren();
+                    scene.RemoveAllChildren();
                     levelLoaded = false;
                 }
             }
@@ -63,7 +74,7 @@ class MainEntry : ScriptObject {
     void HandleUpdate(StringHash eventType, VariantMap& eventData)
     {
         if (levelScene.asyncLoading) {
-            log.Info("Loading Level Progress : " + levelScene.asyncProgress);
+            log.Info("Loading Level Progress : " + scene.asyncProgress);
         }
 
         // Take the frame time step, which is stored as a float
@@ -73,6 +84,7 @@ class MainEntry : ScriptObject {
         // MoveCamera(timeStep);
     }
 
+    /*
     void MoveCamera(float timeStep)
     {
         // Do not move if the UI has a focused element (the console)
@@ -104,6 +116,7 @@ class MainEntry : ScriptObject {
         if (input.keyDown['D'])
             cameraNode.Translate(Vector3(1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
     }
+    */
 
     /*
     void Stop() {

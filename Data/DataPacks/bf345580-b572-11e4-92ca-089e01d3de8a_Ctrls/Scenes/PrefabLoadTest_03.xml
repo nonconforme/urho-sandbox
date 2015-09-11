@@ -1,0 +1,1112 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Next Replicated Node ID" value="395" />
+	<attribute name="Next Replicated Component ID" value="643" />
+	<attribute name="Next Local Node ID" value="16777272" />
+	<attribute name="Next Local Component ID" value="16777232" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="PrefabResource" />
+	<component type="Octree" id="1" />
+	<component type="DebugRenderer" id="2" />
+	<component type="PhysicsWorld" id="5" />
+	<node id="16777235">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LightingPrefab" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/GlobalLighting.xml" />
+		</attribute>
+		<node id="335">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LightsGroup" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="16777270">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="" />
+				<attribute name="Position" value="16.5 12.5 0" />
+				<attribute name="Rotation" value="-0.132686 0.205741 0.313808 0.917384" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="Light" id="16777230">
+					<attribute name="Light Type" value="Directional" />
+					<attribute name="Color" value="0.5 0.5 0.75 1" />
+				</component>
+			</node>
+			<node id="16777271">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="" />
+				<attribute name="Position" value="0 12.5 0" />
+				<attribute name="Rotation" value="0.668484 0.127684 -0.549845 0.484253" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="Light" id="16777231">
+					<attribute name="Light Type" value="Directional" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777238">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Platform_Group" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16777234">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000_Prefab" />
+			<attribute name="Position" value="16 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="336">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="544">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="545">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="546">
+					<attribute name="Physics Position" value="16 16 0" />
+				</component>
+			</node>
+		</node>
+		<node id="16777241">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000_Prefab" />
+			<attribute name="Position" value="0 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="337">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="547">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="548">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="549">
+					<attribute name="Physics Position" value="0 16 0" />
+				</component>
+			</node>
+		</node>
+		<node id="16777242">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000_Prefab" />
+			<attribute name="Position" value="32 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="338">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="550">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="551">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="552">
+					<attribute name="Physics Position" value="32 16 0" />
+				</component>
+			</node>
+		</node>
+		<node id="16777243">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000_Prefab" />
+			<attribute name="Position" value="8 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+			<node id="339">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="553">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="554">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="555">
+					<attribute name="Physics Position" value="8 16 0" />
+				</component>
+				<node id="340">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Pyramid" />
+					<attribute name="Position" value="6 0.5 2" />
+					<attribute name="Rotation" value="1 0 0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="StaticModel" id="556">
+						<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+						<attribute name="Material" value="Material;" />
+					</component>
+				</node>
+				<node id="341">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Pyramid" />
+					<attribute name="Position" value="2 0.5 2" />
+					<attribute name="Rotation" value="1 0 0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="StaticModel" id="557">
+						<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+						<attribute name="Material" value="Material;" />
+					</component>
+				</node>
+				<node id="342">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Pyramid" />
+					<attribute name="Position" value="4 0.5 2" />
+					<attribute name="Rotation" value="1 0 0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="StaticModel" id="558">
+						<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+						<attribute name="Material" value="Material;" />
+					</component>
+				</node>
+			</node>
+		</node>
+		<node id="16777244">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000_Prefab" />
+			<attribute name="Position" value="24 16 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+			</attribute>
+			<node id="343">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="559">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="560">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="561">
+					<attribute name="Physics Position" value="24 16 0" />
+				</component>
+				<node id="344">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Pyramid" />
+					<attribute name="Position" value="6 0.5 2" />
+					<attribute name="Rotation" value="1 0 0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="StaticModel" id="562">
+						<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+						<attribute name="Material" value="Material;" />
+					</component>
+				</node>
+				<node id="345">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Pyramid" />
+					<attribute name="Position" value="2 0.5 2" />
+					<attribute name="Rotation" value="1 0 0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="StaticModel" id="563">
+						<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+						<attribute name="Material" value="Material;" />
+					</component>
+				</node>
+				<node id="346">
+					<attribute name="Is Enabled" value="true" />
+					<attribute name="Name" value="Pyramid" />
+					<attribute name="Position" value="4 0.5 2" />
+					<attribute name="Rotation" value="1 0 0 0" />
+					<attribute name="Scale" value="1 1 1" />
+					<attribute name="Variables" />
+					<component type="StaticModel" id="564">
+						<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+						<attribute name="Material" value="Material;" />
+					</component>
+				</node>
+			</node>
+		</node>
+	</node>
+	<node id="16777247">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="16 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="347">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="565">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="566">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="567">
+				<attribute name="Physics Position" value="16 0 0" />
+			</component>
+			<node id="348">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="568">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="349">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="569">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="350">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="570">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777248">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="351">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="571">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="572">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="573" />
+			<node id="352">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="574">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="353">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="575">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="354">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="576">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777249">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="32 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="355">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="577">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="578">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="579">
+				<attribute name="Physics Position" value="32 0 0" />
+			</component>
+			<node id="356">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="580">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="357">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="581">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="358">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="582">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777250">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="8 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="359">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="583">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="584">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="585">
+				<attribute name="Physics Position" value="8 0 0" />
+			</component>
+			<node id="360">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="586">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="361">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="587">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="362">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="588">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777251">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="24 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+		</attribute>
+		<node id="363">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="589">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="590">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="591">
+				<attribute name="Physics Position" value="24 0 0" />
+			</component>
+		</node>
+	</node>
+	<node id="16777252">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="16 5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="364">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="592">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="593">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="594">
+				<attribute name="Physics Position" value="16 5 0" />
+			</component>
+			<node id="365">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="595">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="366">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="596">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="367">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="597">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777253">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="0 5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="368">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="598">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="599">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="600">
+				<attribute name="Physics Position" value="0 5 0" />
+			</component>
+			<node id="369">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="601">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="370">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="602">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="371">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="603">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777254">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="32 5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="372">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="604">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="605">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="606">
+				<attribute name="Physics Position" value="32 5 0" />
+			</component>
+			<node id="373">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="607">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="374">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="608">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="375">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="609">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777255">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="8 5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+		</attribute>
+		<node id="376">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="610">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="611">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="612">
+				<attribute name="Physics Position" value="8 5 0" />
+			</component>
+		</node>
+	</node>
+	<node id="16777256">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="24 5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="377">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="613">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="614">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="615">
+				<attribute name="Physics Position" value="24 5 0" />
+			</component>
+			<node id="378">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="616">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="379">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="617">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="380">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="618">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777257">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="16 10.5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+		</attribute>
+		<node id="381">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="619">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="620">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="621">
+				<attribute name="Physics Position" value="16 10.5 0" />
+			</component>
+		</node>
+	</node>
+	<node id="16777258">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="0 10.5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="382">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="622">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="623">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="624">
+				<attribute name="Physics Position" value="0 10.5 0" />
+			</component>
+			<node id="383">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="625">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="384">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="626">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="385">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="627">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777259">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="32 10.5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="386">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="628">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="629">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="630">
+				<attribute name="Physics Position" value="32 10.5 0" />
+			</component>
+			<node id="387">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="631">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="388">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="632">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="389">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="633">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777260">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="8 10.5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+		</attribute>
+		<node id="390">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="634">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="635">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="636">
+				<attribute name="Physics Position" value="8 10.5 0" />
+			</component>
+		</node>
+	</node>
+	<node id="16777261">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Platform_000_Prefab" />
+		<attribute name="Position" value="24 10.5 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_000.xml" />
+		</attribute>
+		<node id="391">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_000" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="637">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="638">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="639">
+				<attribute name="Physics Position" value="24 10.5 0" />
+			</component>
+			<node id="392">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="6 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="640">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="393">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="2 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="641">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+			<node id="394">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="Pyramid" />
+				<attribute name="Position" value="4 0.5 2" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="642">
+					<attribute name="Model" value="Model;Models/Pyramid.mdl" />
+					<attribute name="Material" value="Material;" />
+				</component>
+			</node>
+		</node>
+	</node>
+</scene>
