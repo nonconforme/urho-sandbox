@@ -1,1 +1,1 @@
-Node@ cameraNode;
+VariantMap GetDefaultSceneVars() { return script.defaultScene.vars; }

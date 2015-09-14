@@ -32,22 +32,22 @@ def start(mode):
         script_arg    = ['StartGame.as']
         # script_arg    = ['StartGame.lua']
         # standard_args = ['-w', '-deferred', '-log', 'debug']
-        standard_args = ['-w', '-deferred']
-        # standard_args = ['-w']
+        # standard_args = ['-w', '-deferred']
+        standard_args = ['-w']
         start_args    = ['-startpackuuid', 'bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls']
         screen_args   = ['-x', '864', '-y', '486', '-borderless']
     else:
         script_arg    = ['StartEditor.as']
         # script_arg    = [os.path.join('Scripts', 'Editor.as')]
         # standard_args = ['-w', '-s', '-deferred', '-log', 'debug']
-        standard_args = ['-w', '-s', '-deferred']
-        # standard_args = ['-w', '-s']
+        # standard_args = ['-w', '-s', '-deferred']
+        standard_args = ['-w', '-s']
         start_args    = []
         screen_args   = []
 
     file_dir = os.path.dirname(os.path.realpath(__file__))
-    start_cmd = ['optirun', URHO_BIN_PLAYER]
-    # start_cmd = [URHO_BIN_PLAYER]
+    # start_cmd = ['optirun', URHO_BIN_PLAYER]
+    start_cmd = [URHO_BIN_PLAYER]
 
     resource_paths = {
         'Data'      : 'Data',

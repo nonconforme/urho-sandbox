@@ -7,9 +7,9 @@ namespace CtrlsPlayerConstants {
     const int CTRL_RIGHT = 8;
     const int CTRL_JUMP  = 16;
 
-    const float MOVE_FORCE           = 3.8f;
+    const float MOVE_FORCE           = 5.0f;
     const float INAIR_MOVE_FORCE     = 0.02f;
-    const float BRAKE_FORCE          = 0.2f;
+    const float BRAKE_FORCE          = 30.0f;
     const float JUMP_FORCE           = 7.0f;
     const float INAIR_THRESHOLD_TIME = 0.1f;
 }
@@ -48,6 +48,8 @@ class CtrlsPlayerController : PlayerController {
     }
 }
 
+const float BRAKE_FORCE = 0.2f;
+
 class CtrlsPlayer : Player {
     // CtrlsPlayerController@ controller;
 
@@ -73,15 +75,15 @@ class CtrlsPlayer : Player {
     void Start() {
         // log.Info("Starting CtrlsPlayer : " + self.id);
 
-        SubscribeToEvents();
+        // SubscribeToEvents();
         // controller.Start();
     }
 
     void DelayedStart() {
-        Array<Node@> sceneChildren = scene.GetChildren();
-        for (uint i = 0; i < sceneChildren.length; ++i) {
-            log.Info("Node in scene : " + sceneChildren[i].name);
-        }
+        // Array<Node@> sceneChildren = scene.GetChildren();
+        // for (uint i = 0; i < sceneChildren.length; ++i) {
+        //     log.Info("Node in scene : " + sceneChildren[i].name);
+        // }
 
         // Array<Node@> cameraNodes = scene.GetChildrenWithComponent("Camera");
         // if (cameraNodes.length > 0) {
@@ -94,7 +96,7 @@ class CtrlsPlayer : Player {
     }
 
     void Stop() {
-        UnsubscribeFromAllEvents();
+        // UnsubscribeFromAllEvents();
         // controller.Stop();
     }
 
@@ -137,7 +139,12 @@ class CtrlsPlayer : Player {
     }
 
     void FixedUpdate(float timeStep) {
-        Vector3 moveDir(0.0f, 0.0f, 0.0f);
+        RigidBody@ body = node.GetComponent("RigidBody");
+        Vector3 velocity = body.linearVelocity;
+        Vector3 planeVelocity(velocity.x, 0.0f, velocity.z);
+        Vector3 brakeForce = -planeVelocity * BRAKE_FORCE;
+
+        Vector3 moveDir(0.0f, -0.5f, 0.0f);
 
         controls.Set(
                      CtrlsPlayerConstants::CTRL_LEFT |
@@ -147,12 +154,12 @@ class CtrlsPlayer : Player {
 
         controls.Set(CtrlsPlayerConstants::CTRL_UP    , input.keyDown['W']);
         controls.Set(CtrlsPlayerConstants::CTRL_DOWN  , input.keyDown['S']);
-        controls.Set(CtrlsPlayerConstants::CTRL_LEFT  , input.keyDown['A']);
-        controls.Set(CtrlsPlayerConstants::CTRL_RIGHT , input.keyDown['D']);
+        controls.Set(CtrlsPlayerConstants::CTRL_LEFT  , input.keyDown['B']);
+        controls.Set(CtrlsPlayerConstants::CTRL_RIGHT , input.keyDown['N']);
         controls.Set(CtrlsPlayerConstants::CTRL_JUMP  , input.keyDown[KEY_SPACE]);
 
 
-        RigidBody@ body = node.GetComponent("RigidBody");
+        // RigidBody@ body = node.GetComponent("RigidBody");
 
         // if (controls.IsDown(CTRL_FORWARD))
         //     moveDir += Vector3(0.0f, 0.0f, 1.0f);
@@ -168,6 +175,7 @@ class CtrlsPlayer : Player {
             moveDir.Normalize();
 
         body.ApplyImpulse(moveDir * CtrlsPlayerConstants::MOVE_FORCE);
+        body.ApplyImpulse(brakeForce);
     }
 }
 

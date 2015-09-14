@@ -34,6 +34,8 @@ void SpawnPrefab(Node@ newnode) {
         return;
     }
 
+    newnode.RemoveAllComponents();
+
     String prefabResource = newnode.vars[PREFAB_RES].GetString();
     if (!prefabResource.empty) {
         newnode.RemoveAllChildren();

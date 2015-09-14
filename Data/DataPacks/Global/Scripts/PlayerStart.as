@@ -1,11 +1,5 @@
 #include "Global/Scripts/Globals.as"
 
-class PlayerController {
-}
-
-class Player : ScriptObject {
-}
-
 class PlayerStart : ScriptObject {
     void Start() {
     }

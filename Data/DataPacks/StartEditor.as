@@ -65,6 +65,7 @@ void FirstFrame()
 {
     // Create root scene node
     CreateScene();
+    script.defaultScene.vars["GEditorMode"] = true;
 
     // Load editor settings and preferences
     LoadConfig();

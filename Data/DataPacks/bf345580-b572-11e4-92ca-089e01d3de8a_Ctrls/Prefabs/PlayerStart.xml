@@ -11,9 +11,13 @@
 		<attribute name="Size" value="2 2 1" />
 		<attribute name="Offset Position" value="0 1 0" />
 	</component>
+	<component type="StaticModel" id="4">
+		<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+		<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+	</component>
 	<component type="ScriptInstance" id="5">
 		<attribute name="Delayed Method Calls" value="0" />
-		<attribute name="Script File" value="ScriptFile;Global/Scripts/Player.as" />
+		<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 		<attribute name="Class Name" value="PlayerStart" />
 	</component>
 </node>

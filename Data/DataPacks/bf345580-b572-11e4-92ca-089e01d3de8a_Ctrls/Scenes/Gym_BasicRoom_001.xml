@@ -1,0 +1,2956 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Next Replicated Node ID" value="757" />
+	<attribute name="Next Replicated Component ID" value="2133" />
+	<attribute name="Next Local Node ID" value="16777223" />
+	<attribute name="Next Local Component ID" value="16777218" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="PrefabResource" />
+	<component type="Octree" id="1" />
+	<component type="DebugRenderer" id="2" />
+	<component type="PhysicsWorld" id="5" />
+	<node id="2">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LightsGroup" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="16777216">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Position" value="16.5 12.5 0" />
+			<attribute name="Rotation" value="-0.132686 0.205741 0.313808 0.917384" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="Light" id="16777216">
+				<attribute name="Light Type" value="Directional" />
+				<attribute name="Color" value="0.5 0.5 0.75 1" />
+			</component>
+		</node>
+		<node id="16777217">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="" />
+			<attribute name="Position" value="0 12.5 0" />
+			<attribute name="Rotation" value="0.668484 0.127684 -0.549845 0.484253" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="Light" id="16777217">
+				<attribute name="Light Type" value="Directional" />
+			</component>
+		</node>
+	</node>
+	<node id="16777218">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="FloorGroup" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="43">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="-40 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="631">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1809">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1810">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1811">
+					<attribute name="Physics Position" value="-40 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="44">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="60 49 10" />
+			<attribute name="Rotation" value="1.50874e-07 0.707108 -0.707108 -1.50874e-07" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="722">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2058">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2059">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2060">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 49 10" />
+				</component>
+			</node>
+		</node>
+		<node id="45">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="-50 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="633">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1815">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1816">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1817">
+					<attribute name="Physics Position" value="-50 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="52">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="-10 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="634">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1818">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1819">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1820">
+					<attribute name="Physics Position" value="-10 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="53">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="-30 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="635">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1821">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1822">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1823">
+					<attribute name="Physics Position" value="-30 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="54">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="-20 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="636">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1824">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1825">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1826">
+					<attribute name="Physics Position" value="-20 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="96">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="20 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="637">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1827">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1828">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1829">
+					<attribute name="Physics Position" value="20 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="97">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="638">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1830">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1831">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1832" />
+			</node>
+		</node>
+		<node id="98">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="10 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="639">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1833">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1834">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1835">
+					<attribute name="Physics Position" value="10 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="99">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="50 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="640">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1836">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1837">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1838">
+					<attribute name="Physics Position" value="50 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="100">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="30 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="641">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1839">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1840">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1841">
+					<attribute name="Physics Position" value="30 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="101">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="40 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="642">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1842">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1843">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1844">
+					<attribute name="Physics Position" value="40 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="737">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="-60 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="738">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2103">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2104">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2105">
+					<attribute name="Physics Position" value="-60 0 0" />
+				</component>
+			</node>
+		</node>
+		<node id="739">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="60 9 10" />
+			<attribute name="Rotation" value="1.50874e-07 0.707108 -0.707108 -1.50874e-07" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="740">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2106">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2107">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2108">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 9 10" />
+				</component>
+			</node>
+		</node>
+		<node id="741">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="60 19 10" />
+			<attribute name="Rotation" value="1.50874e-07 0.707108 -0.707108 -1.50874e-07" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="742">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2109">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2110">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2111">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 19 10" />
+				</component>
+			</node>
+		</node>
+		<node id="743">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="60 29 10" />
+			<attribute name="Rotation" value="1.50874e-07 0.707108 -0.707108 -1.50874e-07" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="744">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2112">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2113">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2114">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 29 10" />
+				</component>
+			</node>
+		</node>
+		<node id="745">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001_Prefab" />
+			<attribute name="Position" value="60 39 10" />
+			<attribute name="Rotation" value="1.50874e-07 0.707108 -0.707108 -1.50874e-07" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+			</attribute>
+			<node id="746">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Floor_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2115">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2116">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2117">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 39 10" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777220">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="BackgroundGroup" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="102">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="-80 40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="643">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1845">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="103">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="40 40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="644">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1846">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="104">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="-40 40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="645">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1847">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="105">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="0 40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="646">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1848">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="106">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="-80 0 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="647">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1849">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="107">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="40 0 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="648">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1850">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="108">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="-40 0 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="649">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1851">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="109">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="0 0 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="650">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1852">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="110">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="-80 -40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="651">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1853">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="111">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="40 -40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="652">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1854">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="112">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="-40 -40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="653">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1855">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+		<node id="113">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_BackgroundWall_000_Prefab" />
+			<attribute name="Position" value="0 -40 13" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
+			</attribute>
+			<node id="654">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_BackgroundWall_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1856">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777221">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlatformGroup" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="115">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-40.5 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="655">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1857">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1858">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1859">
+					<attribute name="Physics Position" value="-40.5 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="116">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-32.5 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="656">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1860">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1861">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1862">
+					<attribute name="Physics Position" value="-32.5 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="117">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-24.5 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="657">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1863">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1864">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1865">
+					<attribute name="Physics Position" value="-24.5 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="119">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-40 40 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="658">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1866">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1867">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1868">
+					<attribute name="Physics Position" value="-40 40 4" />
+				</component>
+			</node>
+		</node>
+		<node id="120">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-55.5 5.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="659">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1869">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1870">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1871">
+					<attribute name="Physics Position" value="-55.5 5.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="121">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-47.5 5.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="660">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1872">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1873">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1874">
+					<attribute name="Physics Position" value="-47.5 5.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="122">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-64 43 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="661">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1875">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1876">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1877">
+					<attribute name="Physics Position" value="-64 43 4" />
+				</component>
+			</node>
+		</node>
+		<node id="123">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="48 38.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="662">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1878">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1879">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1880">
+					<attribute name="Physics Position" value="48 38.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="124">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="44 6.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="663">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1881">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1882">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1883">
+					<attribute name="Physics Position" value="44 6.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="125">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="52 6.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="664">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1884">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1885">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1886">
+					<attribute name="Physics Position" value="52 6.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="126">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="0 35.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="665">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1887">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1888">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1889">
+					<attribute name="Physics Position" value="0 35.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="127">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="8 35.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="666">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1890">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1891">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1892">
+					<attribute name="Physics Position" value="8 35.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="128">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="16 35.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="667">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1893">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1894">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1895">
+					<attribute name="Physics Position" value="16 35.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="130">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="24 35.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="668">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1896">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1897">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1898">
+					<attribute name="Physics Position" value="24 35.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="131">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="40 38.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="669">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1899">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1900">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1901">
+					<attribute name="Physics Position" value="40 38.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="132">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-56 43 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="670">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1902">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1903">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1904">
+					<attribute name="Physics Position" value="-56 43 4" />
+				</component>
+			</node>
+		</node>
+		<node id="133">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="24.5 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="671">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1905">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1906">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1907">
+					<attribute name="Physics Position" value="24.5 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="134">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="32.5 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="672">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1908">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1909">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1910">
+					<attribute name="Physics Position" value="32.5 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="135">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="40.5 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="673">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1911">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1912">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1913">
+					<attribute name="Physics Position" value="40.5 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="136">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="31.5 3.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="674">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1914">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1915">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1916">
+					<attribute name="Physics Position" value="31.5 3.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="137">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="39.5 3.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="675">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1917">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1918">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1919">
+					<attribute name="Physics Position" value="39.5 3.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="138">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-16 5.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="676">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1920">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1921">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1922">
+					<attribute name="Physics Position" value="-16 5.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="139">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-8 5.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="677">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1923">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1924">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1925">
+					<attribute name="Physics Position" value="-8 5.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="140">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-17.5 40 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="678">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1926">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1927">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1928">
+					<attribute name="Physics Position" value="-17.5 40 4" />
+				</component>
+			</node>
+		</node>
+		<node id="141">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-9.5 40 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="679">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1929">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1930">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1931">
+					<attribute name="Physics Position" value="-9.5 40 4" />
+				</component>
+			</node>
+		</node>
+		<node id="142">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-1.5 40 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="680">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1932">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1933">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1934">
+					<attribute name="Physics Position" value="-1.5 40 4" />
+				</component>
+			</node>
+		</node>
+		<node id="143">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-26 47.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="681">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1935">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1936">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1937">
+					<attribute name="Physics Position" value="-26 47.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="144">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-18 47.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="682">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1938">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1939">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1940">
+					<attribute name="Physics Position" value="-18 47.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="145">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-10 47.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="683">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1941">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1942">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1943">
+					<attribute name="Physics Position" value="-10 47.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="146">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="5.5 47.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="684">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1944">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1945">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1946">
+					<attribute name="Physics Position" value="5.5 47.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="147">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="13.5 47.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="685">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1947">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1948">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1949">
+					<attribute name="Physics Position" value="13.5 47.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="148">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="21.5 47.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="686">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1950">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1951">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1952">
+					<attribute name="Physics Position" value="21.5 47.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="149">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-50.5 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="687">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1953">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1954">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1955">
+					<attribute name="Physics Position" value="-50.5 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="150">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-42.5 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="688">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1956">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1957">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1958">
+					<attribute name="Physics Position" value="-42.5 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="151">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-34.5 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="689">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1959">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1960">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1961">
+					<attribute name="Physics Position" value="-34.5 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="152">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-16 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="690">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1962">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1963">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1964">
+					<attribute name="Physics Position" value="-16 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="153">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-8 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="691">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1965">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1966">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1967">
+					<attribute name="Physics Position" value="-8 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="154">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="0 29.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="692">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1968">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1969">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1970">
+					<attribute name="Physics Position" value="0 29.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="156">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-40 15 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="693">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1971">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1972">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1973">
+					<attribute name="Physics Position" value="-40 15 4" />
+				</component>
+			</node>
+		</node>
+		<node id="157">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-64 18 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="694">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1974">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1975">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1976">
+					<attribute name="Physics Position" value="-64 18 4" />
+				</component>
+			</node>
+		</node>
+		<node id="158">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="48 13 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="695">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1977">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1978">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1979">
+					<attribute name="Physics Position" value="48 13 4" />
+				</component>
+			</node>
+		</node>
+		<node id="159">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="0 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="696">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1980">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1981">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1982">
+					<attribute name="Physics Position" value="0 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="160">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="8 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="697">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1983">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1984">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1985">
+					<attribute name="Physics Position" value="8 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="161">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="16 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="698">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1986">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1987">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1988">
+					<attribute name="Physics Position" value="16 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="163">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="24 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="699">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1989">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1990">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1991">
+					<attribute name="Physics Position" value="24 10 4" />
+				</component>
+			</node>
+		</node>
+		<node id="164">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="40 13 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="700">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1992">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1993">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1994">
+					<attribute name="Physics Position" value="40 13 4" />
+				</component>
+			</node>
+		</node>
+		<node id="165">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-56 18 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="701">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1995">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1996">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="1997">
+					<attribute name="Physics Position" value="-56 18 4" />
+				</component>
+			</node>
+		</node>
+		<node id="166">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-20 15 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="702">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="1998">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="1999">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2000">
+					<attribute name="Physics Position" value="-20 15 4" />
+				</component>
+			</node>
+		</node>
+		<node id="167">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-12 15 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="703">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2001">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2002">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2003">
+					<attribute name="Physics Position" value="-12 15 4" />
+				</component>
+			</node>
+		</node>
+		<node id="168">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-4 15 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="704">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2004">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2005">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2006">
+					<attribute name="Physics Position" value="-4 15 4" />
+				</component>
+			</node>
+		</node>
+		<node id="169">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-26 22 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="705">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2007">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2008">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2009">
+					<attribute name="Physics Position" value="-26 22 4" />
+				</component>
+			</node>
+		</node>
+		<node id="170">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-18 22 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="706">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2010">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2011">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2012">
+					<attribute name="Physics Position" value="-18 22 4" />
+				</component>
+			</node>
+		</node>
+		<node id="171">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="-10 22 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="707">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2013">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2014">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2015">
+					<attribute name="Physics Position" value="-10 22 4" />
+				</component>
+			</node>
+		</node>
+		<node id="172">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="5.5 22 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="708">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2016">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2017">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2018">
+					<attribute name="Physics Position" value="5.5 22 4" />
+				</component>
+			</node>
+		</node>
+		<node id="173">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="13.5 22 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="709">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2019">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2020">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2021">
+					<attribute name="Physics Position" value="13.5 22 4" />
+				</component>
+			</node>
+		</node>
+		<node id="174">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Platform_001_Prefab" />
+			<attribute name="Position" value="21.5 22 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
+			</attribute>
+			<node id="710">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_Platform_001" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2022">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2023">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2024">
+					<attribute name="Physics Position" value="21.5 22 4" />
+				</component>
+			</node>
+		</node>
+		<node id="182">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_PlatformRamp_000_Prefab" />
+			<attribute name="Position" value="-40 40 8" />
+			<attribute name="Rotation" value="-4.37114e-08 0 1 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
+			</attribute>
+			<node id="711">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_PlatformRamp_000" />
+				<attribute name="Position" value="6.99382e-07 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2025">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2026">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2027">
+					<attribute name="Physics Rotation" value="-4.37114e-08 0 1 0" />
+					<attribute name="Physics Position" value="-40 40 8" />
+				</component>
+			</node>
+		</node>
+		<node id="183">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_PlatformRamp_000_Prefab" />
+			<attribute name="Position" value="32 35.5 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
+			</attribute>
+			<node id="712">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_PlatformRamp_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2028">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2029">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2030">
+					<attribute name="Physics Position" value="32 35.5 4" />
+				</component>
+			</node>
+		</node>
+		<node id="184">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_PlatformRamp_000_Prefab" />
+			<attribute name="Position" value="-40 15 8" />
+			<attribute name="Rotation" value="-4.37114e-08 0 1 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
+			</attribute>
+			<node id="713">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_PlatformRamp_000" />
+				<attribute name="Position" value="6.99382e-07 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2031">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2032">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2033">
+					<attribute name="Physics Rotation" value="-4.37114e-08 0 1 0" />
+					<attribute name="Physics Position" value="-40 15 8" />
+				</component>
+			</node>
+		</node>
+		<node id="185">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_PlatformRamp_000_Prefab" />
+			<attribute name="Position" value="32 10 4" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
+			</attribute>
+			<node id="714">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="LD_PlatformRamp_000" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="2034">
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
+					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+				</component>
+				<component type="CollisionShape" id="2035">
+					<attribute name="Shape Type" value="TriangleMesh" />
+					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
+				</component>
+				<component type="RigidBody" id="2036">
+					<attribute name="Physics Position" value="32 10 4" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="16777222">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="PlayerStartsGroup" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="175">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="24 10 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="715">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2037">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2038">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2039">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+		<node id="176">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="-9.5 5.5 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="716">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2040">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2041">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2042">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+		<node id="177">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="-27 10 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="717">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2043">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2044">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2045">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+		<node id="178">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="-52 5.5 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="718">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2046">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2047">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2048">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+		<node id="179">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="-52 19 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="719">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2049">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2050">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2051">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+		<node id="180">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="-12 22 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="720">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2052">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2053">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2054">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+		<node id="181">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="PlayerStart_Prefab" />
+			<attribute name="Position" value="20.5 22 6" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables">
+				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
+			</attribute>
+			<node id="721">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="PlayerStart" />
+				<attribute name="Position" value="0 0 0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="CollisionShape" id="2055">
+					<attribute name="Shape Type" value="Cylinder" />
+					<attribute name="Size" value="2 2 1" />
+					<attribute name="Offset Position" value="0 1 0" />
+				</component>
+				<component type="StaticModel" id="2056">
+					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
+					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
+				</component>
+				<component type="ScriptInstance" id="2057">
+					<attribute name="Delayed Method Calls" value="0" />
+					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
+					<attribute name="Class Name" value="PlayerStart" />
+				</component>
+			</node>
+		</node>
+	</node>
+	<node id="747">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Floor_001_Prefab" />
+		<attribute name="Position" value="-60 49 0" />
+		<attribute name="Rotation" value="0.707107 0 0 -0.707107" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+		</attribute>
+		<node id="748">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="2118">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="2119">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="2120">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 49 0" />
+			</component>
+		</node>
+	</node>
+	<node id="749">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Floor_001_Prefab" />
+		<attribute name="Position" value="-60 9 0" />
+		<attribute name="Rotation" value="0.707107 0 0 -0.707107" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+		</attribute>
+		<node id="750">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="2121">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="2122">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="2123">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 9 0" />
+			</component>
+		</node>
+	</node>
+	<node id="751">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Floor_001_Prefab" />
+		<attribute name="Position" value="-60 19 0" />
+		<attribute name="Rotation" value="0.707107 0 0 -0.707107" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+		</attribute>
+		<node id="752">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="2124">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="2125">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="2126">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 19 0" />
+			</component>
+		</node>
+	</node>
+	<node id="753">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Floor_001_Prefab" />
+		<attribute name="Position" value="-60 29 0" />
+		<attribute name="Rotation" value="0.707107 0 0 -0.707107" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+		</attribute>
+		<node id="754">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="2127">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="2128">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="2129">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 29 0" />
+			</component>
+		</node>
+	</node>
+	<node id="755">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="LD_Floor_001_Prefab" />
+		<attribute name="Position" value="-60 39 0" />
+		<attribute name="Rotation" value="0.707107 0 0 -0.707107" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables">
+			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
+		</attribute>
+		<node id="756">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="LD_Floor_001" />
+			<attribute name="Position" value="0 0 0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<component type="StaticModel" id="2130">
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
+				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
+			</component>
+			<component type="CollisionShape" id="2131">
+				<attribute name="Shape Type" value="TriangleMesh" />
+				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
+			</component>
+			<component type="RigidBody" id="2132">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 39 0" />
+			</component>
+		</node>
+	</node>
+</scene>
