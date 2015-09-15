@@ -7,9 +7,9 @@ namespace CtrlsPlayerConstants {
     const int CTRL_RIGHT = 8;
     const int CTRL_JUMP  = 16;
 
-    const float MOVE_FORCE           = 5.0f;
+    const float MOVE_FORCE           = 3.0f;
     const float INAIR_MOVE_FORCE     = 0.02f;
-    const float BRAKE_FORCE          = 30.0f;
+    const float BRAKE_FORCE          = 5.5f;
     const float JUMP_FORCE           = 7.0f;
     const float INAIR_THRESHOLD_TIME = 0.1f;
 }
@@ -141,10 +141,11 @@ class CtrlsPlayer : Player {
     void FixedUpdate(float timeStep) {
         RigidBody@ body = node.GetComponent("RigidBody");
         Vector3 velocity = body.linearVelocity;
-        Vector3 planeVelocity(velocity.x, 0.0f, velocity.z);
+        Vector3 planeVelocity(velocity.x, 1.0f, velocity.z);
         Vector3 brakeForce = -planeVelocity * BRAKE_FORCE;
 
-        Vector3 moveDir(0.0f, -0.5f, 0.0f);
+        // Vector3 moveDir(0.0f, -0.05f, 0.0f);
+        Vector3 moveDir(0.0f, 0.0f, 0.0f);
 
         controls.Set(
                      CtrlsPlayerConstants::CTRL_LEFT |
@@ -175,6 +176,9 @@ class CtrlsPlayer : Player {
             moveDir.Normalize();
 
         body.ApplyImpulse(moveDir * CtrlsPlayerConstants::MOVE_FORCE);
+        // body.ApplyForce(moveDir * CtrlsPlayerConstants::MOVE_FORCE);
+
+        // log.Info(brakeForce.ToString());
         body.ApplyImpulse(brakeForce);
     }
 }

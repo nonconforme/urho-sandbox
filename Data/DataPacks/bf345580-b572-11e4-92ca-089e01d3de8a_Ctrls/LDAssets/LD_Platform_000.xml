@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<node id="3">
+<node id="2">
 	<attribute name="Is Enabled" value="true" />
 	<attribute name="Name" value="LD_Platform_000" />
 	<attribute name="Position" value="0 0 0" />
@@ -11,7 +11,7 @@
 		<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 	</component>
 	<component type="CollisionShape" id="4">
-		<attribute name="Shape Type" value="TriangleMesh" />
+		<attribute name="Shape Type" value="ConvexHull" />
 		<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
 	</component>
 	<component type="RigidBody" id="6" />

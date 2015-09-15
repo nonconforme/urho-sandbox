@@ -12,6 +12,7 @@ Node@ levelRoot;
 Array<Scene@> loadingScenes;
 
 CtrlsPlayer@ player;
+Node@ playerNode;
 
 bool levelLoaded = false;
 
@@ -136,7 +137,7 @@ class MainEntry : ScriptObject {
         // loadedScene.physicsWorld.DrawDebugGeometry(true);
         // loadedScene.CreateComponent("DebugRenderer");
 
-        levelScene.physicsWorld.gravity = Vector3(0, -45.0, 0);
+        levelScene.physicsWorld.gravity = Vector3(0, -65.0, 0);
     }
 
     void HandlePostRenderUpdate()
@@ -148,45 +149,54 @@ class MainEntry : ScriptObject {
 
     void MoveCamera(float timeStep)
     {
-        if (player is null) {
-            // Do not move if the UI has a focused element (the console)
-            if (ui.focusElement !is null)
-                return;
-
-            // Movement speed as world units per second
-            const float MOVE_SPEED = 20.0f;
-            // Mouse sensitivity as degrees per pixel
-            const float MOUSE_SENSITIVITY = 0.1f;
-
-            // Use this frame's mouse motion to adjust camera node yaw and pitch. Clamp the pitch between -90 and 90 degrees
-            IntVector2 mouseMove = input.mouseMove;
-            yaw += MOUSE_SENSITIVITY * mouseMove.x;
-            pitch += MOUSE_SENSITIVITY * mouseMove.y;
-            pitch = Clamp(pitch, -90.0f, 90.0f);
-
-            // Construct new orientation for the camera scene node from yaw and pitch. Roll is fixed to zero
-            cameraNode.rotation = Quaternion(pitch, yaw, 0.0f);
-
-            // Read WASD keys and move the camera scene node to the corresponding direction if they are pressed
-            // Use the Translate() function (default local space) to move relative to the node's orientation.
-            if (input.keyDown['W'])
-                cameraNode.Translate(Vector3(0.0f, 0.0f, 1.0f) * MOVE_SPEED * timeStep);
-            if (input.keyDown['S'])
-                cameraNode.Translate(Vector3(0.0f, 0.0f, -1.0f) * MOVE_SPEED * timeStep);
-            if (input.keyDown['A'])
-                cameraNode.Translate(Vector3(-1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
-            if (input.keyDown['D'])
-                cameraNode.Translate(Vector3(1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
+        if (playerNode is null) { 
+            FreeCamera(timeStep);
         }
-        else {
-
+        else { 
+            FreeCamera(timeStep);
+            // PlayerCamera(); 
         }
+    }
+
+    void FreeCamera(float timeStep) {
+        // Do not move if the UI has a focused element (the console)
+        if (ui.focusElement !is null)
+            return;
+
+        // Movement speed as world units per second
+        const float MOVE_SPEED = 20.0f;
+        // Mouse sensitivity as degrees per pixel
+        const float MOUSE_SENSITIVITY = 0.1f;
+
+        // Use this frame's mouse motion to adjust camera node yaw and pitch. Clamp the pitch between -90 and 90 degrees
+        IntVector2 mouseMove = input.mouseMove;
+        yaw += MOUSE_SENSITIVITY * mouseMove.x;
+        pitch += MOUSE_SENSITIVITY * mouseMove.y;
+        pitch = Clamp(pitch, -90.0f, 90.0f);
+
+        // Construct new orientation for the camera scene node from yaw and pitch. Roll is fixed to zero
+        cameraNode.rotation = Quaternion(pitch, yaw, 0.0f);
+
+        // Read WASD keys and move the camera scene node to the corresponding direction if they are pressed
+        // Use the Translate() function (default local space) to move relative to the node's orientation.
+        if (input.keyDown['W'])
+            cameraNode.Translate(Vector3(0.0f, 0.0f, 1.0f) * MOVE_SPEED * timeStep);
+        if (input.keyDown['S'])
+            cameraNode.Translate(Vector3(0.0f, 0.0f, -1.0f) * MOVE_SPEED * timeStep);
+        if (input.keyDown['A'])
+            cameraNode.Translate(Vector3(-1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
+        if (input.keyDown['D'])
+            cameraNode.Translate(Vector3(1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
+    }
+
+    void PlayerCamera(float timeStep) {
+        cameraNode.position = playerNode.position + Vector3(0, 3, -10);
     }
 
     void SpawnPlayer() {
         // Ninja@ ninja = cast<Ninja>(ninjaNodes[i].scriptObject);
         String playerPrefabRes = "bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/Player.xml";
-        Node@ playerNode = SpawnPrefab(Vector3(0, 50, 5), playerPrefabRes);
+        playerNode = SpawnPrefab(Vector3(0, 50, 6), playerPrefabRes);
         // playerNode.scale = Vector3(0.5, 0.5, 0.5);
     }
 

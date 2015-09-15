@@ -22,7 +22,7 @@
 	</component>
 	<component type="RigidBody" id="6">
 		<attribute name="Mass" value="1" />
-		<attribute name="Friction" value="0" />
+		<attribute name="Friction" value="3" />
 		<attribute name="Linear Factor" value="1 1 0" />
 		<attribute name="Angular Factor" value="0 0 0" />
 	</component>

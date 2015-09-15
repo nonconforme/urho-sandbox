@@ -5,15 +5,17 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="757" />
-	<attribute name="Next Replicated Component ID" value="2133" />
+	<attribute name="Next Replicated Node ID" value="1161" />
+	<attribute name="Next Replicated Component ID" value="3250" />
 	<attribute name="Next Local Node ID" value="16777223" />
 	<attribute name="Next Local Component ID" value="16777218" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="PrefabResource" />
 	<component type="Octree" id="1" />
 	<component type="DebugRenderer" id="2" />
-	<component type="PhysicsWorld" id="5" />
+	<component type="PhysicsWorld" id="3249">
+		<attribute name="Physics FPS" value="100" />
+	</component>
 	<node id="2">
 		<attribute name="Is Enabled" value="true" />
 		<attribute name="Name" value="LightsGroup" />
@@ -61,23 +63,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="631">
+			<node id="1060">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1809">
+				<component type="StaticModel" id="2970">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1810">
+				<component type="CollisionShape" id="2971">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1811">
-					<attribute name="Physics Position" value="-40 0 0" />
+				<component type="RigidBody" id="2972">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -90,24 +98,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="722">
+			<node id="1061">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
-				<attribute name="Position" value="0 0 0" />
-				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Position" value="-1.47524e-11 4.52627e-07 0" />
+				<attribute name="Rotation" value="1 0 2.71051e-20 1.55854e-19" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2058">
+				<component type="StaticModel" id="2973">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2059">
+				<component type="CollisionShape" id="2974">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2060">
-					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
-					<attribute name="Physics Position" value="60 49 10" />
+				<component type="RigidBody" id="2975">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -120,23 +133,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="633">
+			<node id="1062">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1815">
+				<component type="StaticModel" id="2976">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1816">
+				<component type="CollisionShape" id="2977">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1817">
-					<attribute name="Physics Position" value="-50 0 0" />
+				<component type="RigidBody" id="2978">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -149,23 +168,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="634">
+			<node id="1063">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1818">
+				<component type="StaticModel" id="2979">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1819">
+				<component type="CollisionShape" id="2980">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1820">
-					<attribute name="Physics Position" value="-10 0 0" />
+				<component type="RigidBody" id="2981">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -178,23 +203,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="635">
+			<node id="1064">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1821">
+				<component type="StaticModel" id="2982">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1822">
+				<component type="CollisionShape" id="2983">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1823">
-					<attribute name="Physics Position" value="-30 0 0" />
+				<component type="RigidBody" id="2984">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -207,23 +238,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="636">
+			<node id="1065">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1824">
+				<component type="StaticModel" id="2985">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1825">
+				<component type="CollisionShape" id="2986">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1826">
-					<attribute name="Physics Position" value="-20 0 0" />
+				<component type="RigidBody" id="2987">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -236,23 +273,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="637">
+			<node id="1066">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1827">
+				<component type="StaticModel" id="2988">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1828">
+				<component type="CollisionShape" id="2989">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1829">
-					<attribute name="Physics Position" value="20 0 0" />
+				<component type="RigidBody" id="2990">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -265,22 +308,30 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="638">
+			<node id="1067">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1830">
+				<component type="StaticModel" id="2991">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1831">
+				<component type="CollisionShape" id="2992">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1832" />
+				<component type="RigidBody" id="2993">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
+				</component>
 			</node>
 		</node>
 		<node id="98">
@@ -292,23 +343,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="639">
+			<node id="1068">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1833">
+				<component type="StaticModel" id="2994">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1834">
+				<component type="CollisionShape" id="2995">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1835">
-					<attribute name="Physics Position" value="10 0 0" />
+				<component type="RigidBody" id="2996">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -321,23 +378,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="640">
+			<node id="1069">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1836">
+				<component type="StaticModel" id="2997">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1837">
+				<component type="CollisionShape" id="2998">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1838">
-					<attribute name="Physics Position" value="50 0 0" />
+				<component type="RigidBody" id="2999">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -350,23 +413,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="641">
+			<node id="1070">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1839">
+				<component type="StaticModel" id="3000">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1840">
+				<component type="CollisionShape" id="3001">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1841">
-					<attribute name="Physics Position" value="30 0 0" />
+				<component type="RigidBody" id="3002">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -379,23 +448,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="642">
+			<node id="1071">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1842">
+				<component type="StaticModel" id="3003">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1843">
+				<component type="CollisionShape" id="3004">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="1844">
-					<attribute name="Physics Position" value="40 0 0" />
+				<component type="RigidBody" id="3005">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -408,23 +483,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="738">
+			<node id="1072">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2103">
+				<component type="StaticModel" id="3006">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2104">
+				<component type="CollisionShape" id="3007">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2105">
-					<attribute name="Physics Position" value="-60 0 0" />
+				<component type="RigidBody" id="3008">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -437,24 +518,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="740">
+			<node id="1073">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
-				<attribute name="Position" value="0 0 0" />
-				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Position" value="-1.47524e-11 4.52627e-07 0" />
+				<attribute name="Rotation" value="1 0 2.71051e-20 1.55854e-19" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2106">
+				<component type="StaticModel" id="3009">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2107">
+				<component type="CollisionShape" id="3010">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2108">
-					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
-					<attribute name="Physics Position" value="60 9 10" />
+				<component type="RigidBody" id="3011">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -467,24 +553,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="742">
+			<node id="1074">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
-				<attribute name="Position" value="0 0 0" />
-				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Position" value="-1.47524e-11 4.52627e-07 0" />
+				<attribute name="Rotation" value="1 0 2.71051e-20 1.55854e-19" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2109">
+				<component type="StaticModel" id="3012">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2110">
+				<component type="CollisionShape" id="3013">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2111">
-					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
-					<attribute name="Physics Position" value="60 19 10" />
+				<component type="RigidBody" id="3014">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -497,24 +588,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="744">
+			<node id="1075">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
-				<attribute name="Position" value="0 0 0" />
-				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Position" value="-1.47524e-11 4.52627e-07 0" />
+				<attribute name="Rotation" value="1 0 2.71051e-20 1.55854e-19" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2112">
+				<component type="StaticModel" id="3015">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2113">
+				<component type="CollisionShape" id="3016">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2114">
-					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
-					<attribute name="Physics Position" value="60 29 10" />
+				<component type="RigidBody" id="3017">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -527,24 +623,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 			</attribute>
-			<node id="746">
+			<node id="1076">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Floor_001" />
-				<attribute name="Position" value="0 0 0" />
-				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Position" value="-1.47524e-11 4.52627e-07 0" />
+				<attribute name="Rotation" value="1 0 2.71051e-20 1.55854e-19" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2115">
+				<component type="StaticModel" id="3018">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2116">
+				<component type="CollisionShape" id="3019">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2117">
-					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
-					<attribute name="Physics Position" value="60 39 10" />
+				<component type="RigidBody" id="3020">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -565,14 +666,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="643">
+			<node id="1077">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1845">
+				<component type="StaticModel" id="3021">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -587,14 +688,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="644">
+			<node id="1078">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1846">
+				<component type="StaticModel" id="3022">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -609,14 +710,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="645">
+			<node id="1079">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1847">
+				<component type="StaticModel" id="3023">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -631,14 +732,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="646">
+			<node id="1080">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1848">
+				<component type="StaticModel" id="3024">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -653,14 +754,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="647">
+			<node id="1081">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1849">
+				<component type="StaticModel" id="3025">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -675,14 +776,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="648">
+			<node id="1082">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1850">
+				<component type="StaticModel" id="3026">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -697,14 +798,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="649">
+			<node id="1083">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1851">
+				<component type="StaticModel" id="3027">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -719,14 +820,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="650">
+			<node id="1084">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1852">
+				<component type="StaticModel" id="3028">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -741,14 +842,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="651">
+			<node id="1085">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1853">
+				<component type="StaticModel" id="3029">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -763,14 +864,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="652">
+			<node id="1086">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1854">
+				<component type="StaticModel" id="3030">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -785,14 +886,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="653">
+			<node id="1087">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1855">
+				<component type="StaticModel" id="3031">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -807,14 +908,14 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_BackgroundWall_000.xml" />
 			</attribute>
-			<node id="654">
+			<node id="1088">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_BackgroundWall_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1856">
+				<component type="StaticModel" id="3032">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_BackgroundWall_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
@@ -837,23 +938,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="655">
+			<node id="1089">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1857">
+				<component type="StaticModel" id="3033">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1858">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3034">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1859">
-					<attribute name="Physics Position" value="-40.5 10 4" />
+				<component type="RigidBody" id="3035">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -866,23 +973,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="656">
+			<node id="1090">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1860">
+				<component type="StaticModel" id="3036">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1861">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3037">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1862">
-					<attribute name="Physics Position" value="-32.5 10 4" />
+				<component type="RigidBody" id="3038">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -895,23 +1008,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="657">
+			<node id="1091">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1863">
+				<component type="StaticModel" id="3039">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1864">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3040">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1865">
-					<attribute name="Physics Position" value="-24.5 10 4" />
+				<component type="RigidBody" id="3041">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -924,23 +1043,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="658">
+			<node id="1092">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1866">
+				<component type="StaticModel" id="3042">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1867">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3043">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1868">
-					<attribute name="Physics Position" value="-40 40 4" />
+				<component type="RigidBody" id="3044">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -953,23 +1078,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="659">
+			<node id="1093">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1869">
+				<component type="StaticModel" id="3045">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1870">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3046">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1871">
-					<attribute name="Physics Position" value="-55.5 5.5 4" />
+				<component type="RigidBody" id="3047">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -982,23 +1113,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="660">
+			<node id="1094">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1872">
+				<component type="StaticModel" id="3048">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1873">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3049">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1874">
-					<attribute name="Physics Position" value="-47.5 5.5 4" />
+				<component type="RigidBody" id="3050">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1011,23 +1148,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="661">
+			<node id="1095">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1875">
+				<component type="StaticModel" id="3051">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1876">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3052">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1877">
-					<attribute name="Physics Position" value="-64 43 4" />
+				<component type="RigidBody" id="3053">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1040,23 +1183,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="662">
+			<node id="1096">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1878">
+				<component type="StaticModel" id="3054">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1879">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3055">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1880">
-					<attribute name="Physics Position" value="48 38.5 4" />
+				<component type="RigidBody" id="3056">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1069,23 +1218,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="663">
+			<node id="1097">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1881">
+				<component type="StaticModel" id="3057">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1882">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3058">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1883">
-					<attribute name="Physics Position" value="44 6.5 4" />
+				<component type="RigidBody" id="3059">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1098,23 +1253,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="664">
+			<node id="1098">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1884">
+				<component type="StaticModel" id="3060">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1885">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3061">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1886">
-					<attribute name="Physics Position" value="52 6.5 4" />
+				<component type="RigidBody" id="3062">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1127,23 +1288,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="665">
+			<node id="1099">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1887">
+				<component type="StaticModel" id="3063">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1888">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3064">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1889">
-					<attribute name="Physics Position" value="0 35.5 4" />
+				<component type="RigidBody" id="3065">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1156,23 +1323,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="666">
+			<node id="1100">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1890">
+				<component type="StaticModel" id="3066">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1891">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3067">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1892">
-					<attribute name="Physics Position" value="8 35.5 4" />
+				<component type="RigidBody" id="3068">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1185,23 +1358,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="667">
+			<node id="1101">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1893">
+				<component type="StaticModel" id="3069">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1894">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3070">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1895">
-					<attribute name="Physics Position" value="16 35.5 4" />
+				<component type="RigidBody" id="3071">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1214,23 +1393,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="668">
+			<node id="1102">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1896">
+				<component type="StaticModel" id="3072">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1897">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3073">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1898">
-					<attribute name="Physics Position" value="24 35.5 4" />
+				<component type="RigidBody" id="3074">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1243,23 +1428,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="669">
+			<node id="1103">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1899">
+				<component type="StaticModel" id="3075">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1900">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3076">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1901">
-					<attribute name="Physics Position" value="40 38.5 4" />
+				<component type="RigidBody" id="3077">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1272,23 +1463,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="670">
+			<node id="1104">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1902">
+				<component type="StaticModel" id="3078">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1903">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3079">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1904">
-					<attribute name="Physics Position" value="-56 43 4" />
+				<component type="RigidBody" id="3080">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1301,23 +1498,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="671">
+			<node id="1105">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1905">
+				<component type="StaticModel" id="3081">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1906">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3082">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1907">
-					<attribute name="Physics Position" value="24.5 29.5 4" />
+				<component type="RigidBody" id="3083">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1330,23 +1533,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="672">
+			<node id="1106">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1908">
+				<component type="StaticModel" id="3084">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1909">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3085">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1910">
-					<attribute name="Physics Position" value="32.5 29.5 4" />
+				<component type="RigidBody" id="3086">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1359,23 +1568,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="673">
+			<node id="1107">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1911">
+				<component type="StaticModel" id="3087">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1912">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3088">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1913">
-					<attribute name="Physics Position" value="40.5 29.5 4" />
+				<component type="RigidBody" id="3089">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1388,23 +1603,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="674">
+			<node id="1108">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1914">
+				<component type="StaticModel" id="3090">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1915">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3091">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1916">
-					<attribute name="Physics Position" value="31.5 3.5 4" />
+				<component type="RigidBody" id="3092">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1417,23 +1638,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="675">
+			<node id="1109">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1917">
+				<component type="StaticModel" id="3093">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1918">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3094">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1919">
-					<attribute name="Physics Position" value="39.5 3.5 4" />
+				<component type="RigidBody" id="3095">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1446,23 +1673,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="676">
+			<node id="1110">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1920">
+				<component type="StaticModel" id="3096">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1921">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3097">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1922">
-					<attribute name="Physics Position" value="-16 5.5 4" />
+				<component type="RigidBody" id="3098">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1475,23 +1708,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="677">
+			<node id="1111">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1923">
+				<component type="StaticModel" id="3099">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1924">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3100">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1925">
-					<attribute name="Physics Position" value="-8 5.5 4" />
+				<component type="RigidBody" id="3101">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1504,23 +1743,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="678">
+			<node id="1112">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1926">
+				<component type="StaticModel" id="3102">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1927">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3103">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1928">
-					<attribute name="Physics Position" value="-17.5 40 4" />
+				<component type="RigidBody" id="3104">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1533,23 +1778,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="679">
+			<node id="1113">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1929">
+				<component type="StaticModel" id="3105">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1930">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3106">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1931">
-					<attribute name="Physics Position" value="-9.5 40 4" />
+				<component type="RigidBody" id="3107">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1562,23 +1813,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="680">
+			<node id="1114">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1932">
+				<component type="StaticModel" id="3108">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1933">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3109">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1934">
-					<attribute name="Physics Position" value="-1.5 40 4" />
+				<component type="RigidBody" id="3110">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1591,23 +1848,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="681">
+			<node id="1115">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1935">
+				<component type="StaticModel" id="3111">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1936">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3112">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1937">
-					<attribute name="Physics Position" value="-26 47.5 4" />
+				<component type="RigidBody" id="3113">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1620,23 +1883,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="682">
+			<node id="1116">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1938">
+				<component type="StaticModel" id="3114">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1939">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3115">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1940">
-					<attribute name="Physics Position" value="-18 47.5 4" />
+				<component type="RigidBody" id="3116">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1649,23 +1918,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="683">
+			<node id="1117">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1941">
+				<component type="StaticModel" id="3117">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1942">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3118">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1943">
-					<attribute name="Physics Position" value="-10 47.5 4" />
+				<component type="RigidBody" id="3119">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1678,23 +1953,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="684">
+			<node id="1118">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1944">
+				<component type="StaticModel" id="3120">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1945">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3121">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1946">
-					<attribute name="Physics Position" value="5.5 47.5 4" />
+				<component type="RigidBody" id="3122">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1707,23 +1988,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="685">
+			<node id="1119">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1947">
+				<component type="StaticModel" id="3123">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1948">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3124">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1949">
-					<attribute name="Physics Position" value="13.5 47.5 4" />
+				<component type="RigidBody" id="3125">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1736,23 +2023,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="686">
+			<node id="1120">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1950">
+				<component type="StaticModel" id="3126">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1951">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3127">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1952">
-					<attribute name="Physics Position" value="21.5 47.5 4" />
+				<component type="RigidBody" id="3128">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1765,23 +2058,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="687">
+			<node id="1121">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1953">
+				<component type="StaticModel" id="3129">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1954">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3130">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1955">
-					<attribute name="Physics Position" value="-50.5 29.5 4" />
+				<component type="RigidBody" id="3131">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1794,23 +2093,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="688">
+			<node id="1122">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1956">
+				<component type="StaticModel" id="3132">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1957">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3133">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1958">
-					<attribute name="Physics Position" value="-42.5 29.5 4" />
+				<component type="RigidBody" id="3134">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1823,23 +2128,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="689">
+			<node id="1123">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1959">
+				<component type="StaticModel" id="3135">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1960">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3136">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1961">
-					<attribute name="Physics Position" value="-34.5 29.5 4" />
+				<component type="RigidBody" id="3137">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1852,23 +2163,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="690">
+			<node id="1124">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1962">
+				<component type="StaticModel" id="3138">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1963">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3139">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1964">
-					<attribute name="Physics Position" value="-16 29.5 4" />
+				<component type="RigidBody" id="3140">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1881,23 +2198,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="691">
+			<node id="1125">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1965">
+				<component type="StaticModel" id="3141">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1966">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3142">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1967">
-					<attribute name="Physics Position" value="-8 29.5 4" />
+				<component type="RigidBody" id="3143">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1910,23 +2233,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="692">
+			<node id="1126">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1968">
+				<component type="StaticModel" id="3144">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1969">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3145">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1970">
-					<attribute name="Physics Position" value="0 29.5 4" />
+				<component type="RigidBody" id="3146">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1939,23 +2268,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="693">
+			<node id="1127">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1971">
+				<component type="StaticModel" id="3147">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1972">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3148">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1973">
-					<attribute name="Physics Position" value="-40 15 4" />
+				<component type="RigidBody" id="3149">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1968,23 +2303,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="694">
+			<node id="1128">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1974">
+				<component type="StaticModel" id="3150">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1975">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3151">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1976">
-					<attribute name="Physics Position" value="-64 18 4" />
+				<component type="RigidBody" id="3152">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -1997,23 +2338,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="695">
+			<node id="1129">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1977">
+				<component type="StaticModel" id="3153">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1978">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3154">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1979">
-					<attribute name="Physics Position" value="48 13 4" />
+				<component type="RigidBody" id="3155">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2026,23 +2373,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="696">
+			<node id="1130">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1980">
+				<component type="StaticModel" id="3156">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1981">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3157">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1982">
-					<attribute name="Physics Position" value="0 10 4" />
+				<component type="RigidBody" id="3158">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2055,23 +2408,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="697">
+			<node id="1131">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1983">
+				<component type="StaticModel" id="3159">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1984">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3160">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1985">
-					<attribute name="Physics Position" value="8 10 4" />
+				<component type="RigidBody" id="3161">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2084,23 +2443,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="698">
+			<node id="1132">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1986">
+				<component type="StaticModel" id="3162">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1987">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3163">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1988">
-					<attribute name="Physics Position" value="16 10 4" />
+				<component type="RigidBody" id="3164">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2113,23 +2478,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="699">
+			<node id="1133">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1989">
+				<component type="StaticModel" id="3165">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1990">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3166">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1991">
-					<attribute name="Physics Position" value="24 10 4" />
+				<component type="RigidBody" id="3167">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2142,23 +2513,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="700">
+			<node id="1134">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1992">
+				<component type="StaticModel" id="3168">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1993">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3169">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1994">
-					<attribute name="Physics Position" value="40 13 4" />
+				<component type="RigidBody" id="3170">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2171,23 +2548,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="701">
+			<node id="1135">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1995">
+				<component type="StaticModel" id="3171">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1996">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3172">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="1997">
-					<attribute name="Physics Position" value="-56 18 4" />
+				<component type="RigidBody" id="3173">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2200,23 +2583,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="702">
+			<node id="1136">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="1998">
+				<component type="StaticModel" id="3174">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="1999">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3175">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2000">
-					<attribute name="Physics Position" value="-20 15 4" />
+				<component type="RigidBody" id="3176">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2229,23 +2618,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="703">
+			<node id="1137">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2001">
+				<component type="StaticModel" id="3177">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2002">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3178">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2003">
-					<attribute name="Physics Position" value="-12 15 4" />
+				<component type="RigidBody" id="3179">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2258,23 +2653,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="704">
+			<node id="1138">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2004">
+				<component type="StaticModel" id="3180">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2005">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3181">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2006">
-					<attribute name="Physics Position" value="-4 15 4" />
+				<component type="RigidBody" id="3182">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2287,23 +2688,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="705">
+			<node id="1139">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2007">
+				<component type="StaticModel" id="3183">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2008">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3184">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2009">
-					<attribute name="Physics Position" value="-26 22 4" />
+				<component type="RigidBody" id="3185">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2316,23 +2723,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="706">
+			<node id="1140">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2010">
+				<component type="StaticModel" id="3186">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2011">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3187">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2012">
-					<attribute name="Physics Position" value="-18 22 4" />
+				<component type="RigidBody" id="3188">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2345,23 +2758,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="707">
+			<node id="1141">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2013">
+				<component type="StaticModel" id="3189">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2014">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3190">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2015">
-					<attribute name="Physics Position" value="-10 22 4" />
+				<component type="RigidBody" id="3191">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2374,23 +2793,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="708">
+			<node id="1142">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2016">
+				<component type="StaticModel" id="3192">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2017">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3193">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2018">
-					<attribute name="Physics Position" value="5.5 22 4" />
+				<component type="RigidBody" id="3194">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2403,23 +2828,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="709">
+			<node id="1143">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2019">
+				<component type="StaticModel" id="3195">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2020">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3196">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2021">
-					<attribute name="Physics Position" value="13.5 22 4" />
+				<component type="RigidBody" id="3197">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2432,23 +2863,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Platform_001.xml" />
 			</attribute>
-			<node id="710">
+			<node id="1144">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_Platform_001" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2022">
+				<component type="StaticModel" id="3198">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2023">
-					<attribute name="Shape Type" value="TriangleMesh" />
-					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Platform_000_Col.mdl" />
+				<component type="CollisionShape" id="3199">
+					<attribute name="Size" value="8 0.5 4" />
+					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
-				<component type="RigidBody" id="2024">
-					<attribute name="Physics Position" value="21.5 22 4" />
+				<component type="RigidBody" id="3200">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2461,24 +2898,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
 			</attribute>
-			<node id="711">
+			<node id="1145">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_PlatformRamp_000" />
 				<attribute name="Position" value="6.99382e-07 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2025">
+				<component type="StaticModel" id="3201">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2026">
+				<component type="CollisionShape" id="3202">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2027">
-					<attribute name="Physics Rotation" value="-4.37114e-08 0 1 0" />
-					<attribute name="Physics Position" value="-40 40 8" />
+				<component type="RigidBody" id="3203">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2491,23 +2933,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
 			</attribute>
-			<node id="712">
+			<node id="1146">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_PlatformRamp_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2028">
+				<component type="StaticModel" id="3204">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2029">
+				<component type="CollisionShape" id="3205">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2030">
-					<attribute name="Physics Position" value="32 35.5 4" />
+				<component type="RigidBody" id="3206">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2520,24 +2968,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
 			</attribute>
-			<node id="713">
+			<node id="1147">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_PlatformRamp_000" />
 				<attribute name="Position" value="6.99382e-07 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2031">
+				<component type="StaticModel" id="3207">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2032">
+				<component type="CollisionShape" id="3208">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2033">
-					<attribute name="Physics Rotation" value="-4.37114e-08 0 1 0" />
-					<attribute name="Physics Position" value="-40 15 8" />
+				<component type="RigidBody" id="3209">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2550,23 +3003,29 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_PlatformRamp_000.xml" />
 			</attribute>
-			<node id="714">
+			<node id="1148">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="LD_PlatformRamp_000" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="StaticModel" id="2034">
+				<component type="StaticModel" id="3210">
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000.mdl" />
 					<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 				</component>
-				<component type="CollisionShape" id="2035">
+				<component type="CollisionShape" id="3211">
 					<attribute name="Shape Type" value="TriangleMesh" />
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
-				<component type="RigidBody" id="2036">
-					<attribute name="Physics Position" value="32 10 4" />
+				<component type="RigidBody" id="3212">
+					<attribute name="Friction" value="0" />
+					<attribute name="Anisotropic Friction" value="0 0 0" />
+					<attribute name="Linear Factor" value="0 0 0" />
+					<attribute name="Angular Factor" value="0 0 0" />
+					<attribute name="Linear Rest Threshold" value="0" />
+					<attribute name="Angular Rest Threshold" value="0" />
+					<attribute name="Contact Threshold" value="0" />
 				</component>
 			</node>
 		</node>
@@ -2587,23 +3046,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="715">
+			<node id="1149">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2037">
+				<component type="CollisionShape" id="3213">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2038">
+				<component type="StaticModel" id="3214">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2039">
+				<component type="ScriptInstance" id="3215">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2619,23 +3078,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="716">
+			<node id="1150">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2040">
+				<component type="CollisionShape" id="3216">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2041">
+				<component type="StaticModel" id="3217">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2042">
+				<component type="ScriptInstance" id="3218">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2651,23 +3110,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="717">
+			<node id="1151">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2043">
+				<component type="CollisionShape" id="3219">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2044">
+				<component type="StaticModel" id="3220">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2045">
+				<component type="ScriptInstance" id="3221">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2683,23 +3142,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="718">
+			<node id="1152">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2046">
+				<component type="CollisionShape" id="3222">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2047">
+				<component type="StaticModel" id="3223">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2048">
+				<component type="ScriptInstance" id="3224">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2715,23 +3174,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="719">
+			<node id="1153">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2049">
+				<component type="CollisionShape" id="3225">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2050">
+				<component type="StaticModel" id="3226">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2051">
+				<component type="ScriptInstance" id="3227">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2747,23 +3206,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="720">
+			<node id="1154">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2052">
+				<component type="CollisionShape" id="3228">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2053">
+				<component type="StaticModel" id="3229">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2054">
+				<component type="ScriptInstance" id="3230">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2779,23 +3238,23 @@
 			<attribute name="Variables">
 				<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Prefabs/PlayerStart.xml" />
 			</attribute>
-			<node id="721">
+			<node id="1155">
 				<attribute name="Is Enabled" value="true" />
 				<attribute name="Name" value="PlayerStart" />
 				<attribute name="Position" value="0 0 0" />
 				<attribute name="Rotation" value="1 0 0 0" />
 				<attribute name="Scale" value="1 1 1" />
 				<attribute name="Variables" />
-				<component type="CollisionShape" id="2055">
+				<component type="CollisionShape" id="3231">
 					<attribute name="Shape Type" value="Cylinder" />
 					<attribute name="Size" value="2 2 1" />
 					<attribute name="Offset Position" value="0 1 0" />
 				</component>
-				<component type="StaticModel" id="2056">
+				<component type="StaticModel" id="3232">
 					<attribute name="Model" value="Model;Global/Editor/Models/ED_Icon_PlayerStart.mdl" />
 					<attribute name="Material" value="Material;Global/Editor/Materials/ED_Icons_Mat.xml" />
 				</component>
-				<component type="ScriptInstance" id="2057">
+				<component type="ScriptInstance" id="3233">
 					<attribute name="Delayed Method Calls" value="0" />
 					<attribute name="Script File" value="ScriptFile;Global/Scripts/PlayerStart.as" />
 					<attribute name="Class Name" value="PlayerStart" />
@@ -2812,24 +3271,29 @@
 		<attribute name="Variables">
 			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 		</attribute>
-		<node id="748">
+		<node id="1156">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Floor_001" />
 			<attribute name="Position" value="0 0 0" />
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables" />
-			<component type="StaticModel" id="2118">
+			<component type="StaticModel" id="3234">
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 			</component>
-			<component type="CollisionShape" id="2119">
+			<component type="CollisionShape" id="3235">
 				<attribute name="Shape Type" value="TriangleMesh" />
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
-			<component type="RigidBody" id="2120">
-				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
-				<attribute name="Physics Position" value="-60 49 0" />
+			<component type="RigidBody" id="3236">
+				<attribute name="Friction" value="0" />
+				<attribute name="Anisotropic Friction" value="0 0 0" />
+				<attribute name="Linear Factor" value="0 0 0" />
+				<attribute name="Angular Factor" value="0 0 0" />
+				<attribute name="Linear Rest Threshold" value="0" />
+				<attribute name="Angular Rest Threshold" value="0" />
+				<attribute name="Contact Threshold" value="0" />
 			</component>
 		</node>
 	</node>
@@ -2842,24 +3306,29 @@
 		<attribute name="Variables">
 			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 		</attribute>
-		<node id="750">
+		<node id="1157">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Floor_001" />
 			<attribute name="Position" value="0 0 0" />
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables" />
-			<component type="StaticModel" id="2121">
+			<component type="StaticModel" id="3237">
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 			</component>
-			<component type="CollisionShape" id="2122">
+			<component type="CollisionShape" id="3238">
 				<attribute name="Shape Type" value="TriangleMesh" />
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
-			<component type="RigidBody" id="2123">
-				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
-				<attribute name="Physics Position" value="-60 9 0" />
+			<component type="RigidBody" id="3239">
+				<attribute name="Friction" value="0" />
+				<attribute name="Anisotropic Friction" value="0 0 0" />
+				<attribute name="Linear Factor" value="0 0 0" />
+				<attribute name="Angular Factor" value="0 0 0" />
+				<attribute name="Linear Rest Threshold" value="0" />
+				<attribute name="Angular Rest Threshold" value="0" />
+				<attribute name="Contact Threshold" value="0" />
 			</component>
 		</node>
 	</node>
@@ -2872,24 +3341,29 @@
 		<attribute name="Variables">
 			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 		</attribute>
-		<node id="752">
+		<node id="1158">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Floor_001" />
 			<attribute name="Position" value="0 0 0" />
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables" />
-			<component type="StaticModel" id="2124">
+			<component type="StaticModel" id="3240">
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 			</component>
-			<component type="CollisionShape" id="2125">
+			<component type="CollisionShape" id="3241">
 				<attribute name="Shape Type" value="TriangleMesh" />
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
-			<component type="RigidBody" id="2126">
-				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
-				<attribute name="Physics Position" value="-60 19 0" />
+			<component type="RigidBody" id="3242">
+				<attribute name="Friction" value="0" />
+				<attribute name="Anisotropic Friction" value="0 0 0" />
+				<attribute name="Linear Factor" value="0 0 0" />
+				<attribute name="Angular Factor" value="0 0 0" />
+				<attribute name="Linear Rest Threshold" value="0" />
+				<attribute name="Angular Rest Threshold" value="0" />
+				<attribute name="Contact Threshold" value="0" />
 			</component>
 		</node>
 	</node>
@@ -2902,24 +3376,29 @@
 		<attribute name="Variables">
 			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 		</attribute>
-		<node id="754">
+		<node id="1159">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Floor_001" />
 			<attribute name="Position" value="0 0 0" />
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables" />
-			<component type="StaticModel" id="2127">
+			<component type="StaticModel" id="3243">
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 			</component>
-			<component type="CollisionShape" id="2128">
+			<component type="CollisionShape" id="3244">
 				<attribute name="Shape Type" value="TriangleMesh" />
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
-			<component type="RigidBody" id="2129">
-				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
-				<attribute name="Physics Position" value="-60 29 0" />
+			<component type="RigidBody" id="3245">
+				<attribute name="Friction" value="0" />
+				<attribute name="Anisotropic Friction" value="0 0 0" />
+				<attribute name="Linear Factor" value="0 0 0" />
+				<attribute name="Angular Factor" value="0 0 0" />
+				<attribute name="Linear Rest Threshold" value="0" />
+				<attribute name="Angular Rest Threshold" value="0" />
+				<attribute name="Contact Threshold" value="0" />
 			</component>
 		</node>
 	</node>
@@ -2932,24 +3411,29 @@
 		<attribute name="Variables">
 			<variant hash="1032518450" type="String" value="bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/LD_Floor_000.xml" />
 		</attribute>
-		<node id="756">
+		<node id="1160">
 			<attribute name="Is Enabled" value="true" />
 			<attribute name="Name" value="LD_Floor_001" />
 			<attribute name="Position" value="0 0 0" />
 			<attribute name="Rotation" value="1 0 0 0" />
 			<attribute name="Scale" value="1 1 1" />
 			<attribute name="Variables" />
-			<component type="StaticModel" id="2130">
+			<component type="StaticModel" id="3246">
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000.mdl" />
 				<attribute name="Material" value="Material;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_Grey_000_Mat.xml;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Materials/LD_DarkGrey_000_Mat.xml" />
 			</component>
-			<component type="CollisionShape" id="2131">
+			<component type="CollisionShape" id="3247">
 				<attribute name="Shape Type" value="TriangleMesh" />
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
-			<component type="RigidBody" id="2132">
-				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
-				<attribute name="Physics Position" value="-60 39 0" />
+			<component type="RigidBody" id="3248">
+				<attribute name="Friction" value="0" />
+				<attribute name="Anisotropic Friction" value="0 0 0" />
+				<attribute name="Linear Factor" value="0 0 0" />
+				<attribute name="Angular Factor" value="0 0 0" />
+				<attribute name="Linear Rest Threshold" value="0" />
+				<attribute name="Angular Rest Threshold" value="0" />
+				<attribute name="Contact Threshold" value="0" />
 			</component>
 		</node>
 	</node>
