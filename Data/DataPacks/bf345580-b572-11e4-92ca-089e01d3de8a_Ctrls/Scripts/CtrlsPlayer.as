@@ -10,7 +10,7 @@ namespace CtrlsPlayerConstants {
     const float MOVE_FORCE           = 3.0f;
     const float INAIR_MOVE_FORCE     = 0.02f;
     const float BRAKE_FORCE          = 5.5f;
-    const float JUMP_FORCE           = 7.0f;
+    const float JUMP_FORCE           = 50.0f;
     const float INAIR_THRESHOLD_TIME = 0.1f;
 }
 
@@ -155,8 +155,8 @@ class CtrlsPlayer : Player {
 
         controls.Set(CtrlsPlayerConstants::CTRL_UP    , input.keyDown['W']);
         controls.Set(CtrlsPlayerConstants::CTRL_DOWN  , input.keyDown['S']);
-        controls.Set(CtrlsPlayerConstants::CTRL_LEFT  , input.keyDown['B']);
-        controls.Set(CtrlsPlayerConstants::CTRL_RIGHT , input.keyDown['N']);
+        controls.Set(CtrlsPlayerConstants::CTRL_LEFT  , input.keyDown['A']);
+        controls.Set(CtrlsPlayerConstants::CTRL_RIGHT , input.keyDown['D']);
         controls.Set(CtrlsPlayerConstants::CTRL_JUMP  , input.keyDown[KEY_SPACE]);
 
 
@@ -171,12 +171,28 @@ class CtrlsPlayer : Player {
         if (controls.IsDown(CtrlsPlayerConstants::CTRL_RIGHT))
             moveDir += Vector3(1.0f, 0.0f, 0.0f);
 
+        // if (controls.IsDown(CtrlsPlayerConstants::CTRL_JUMP))
+        //     moveDir += Vector3(0.0f, 1.0f, 0.0f);
+
         // Normalize move vector
         if (moveDir.lengthSquared > 0.0f)
             moveDir.Normalize();
 
         body.ApplyImpulse(moveDir * CtrlsPlayerConstants::MOVE_FORCE);
         // body.ApplyForce(moveDir * CtrlsPlayerConstants::MOVE_FORCE);
+
+        // Jump. Must release jump control inbetween jumps
+        if (controls.IsDown(CtrlsPlayerConstants::CTRL_JUMP))
+        {
+            if (okToJump)
+            {
+                body.ApplyImpulse(Vector3(0.0f, 1.0f, 0.0f) * CtrlsPlayerConstants::JUMP_FORCE);
+                okToJump = false;
+            }
+        }
+        else
+            okToJump = true;
+
 
         // log.Info(brakeForce.ToString());
         body.ApplyImpulse(brakeForce);

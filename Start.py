@@ -33,7 +33,7 @@ def start(mode):
         # script_arg    = ['StartGame.lua']
         # standard_args = ['-w', '-deferred', '-log', 'debug']
         # standard_args = ['-w', '-deferred']
-        standard_args = ['-w']
+        standard_args = ['-w', '-v']
         start_args    = ['-startpackuuid', 'bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls']
         screen_args   = ['-x', '864', '-y', '486', '-borderless']
     else:

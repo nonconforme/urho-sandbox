@@ -143,7 +143,7 @@ class MainEntry : ScriptObject {
     void HandlePostRenderUpdate()
     {
         if (levelScene.physicsWorld !is null) {
-            levelScene.physicsWorld.DrawDebugGeometry(true);
+            // levelScene.physicsWorld.DrawDebugGeometry(true);
         }
     }
 
@@ -153,8 +153,8 @@ class MainEntry : ScriptObject {
             FreeCamera(timeStep);
         }
         else { 
-            FreeCamera(timeStep);
-            // PlayerCamera(); 
+            // FreeCamera(timeStep);
+            PlayerCamera(timeStep); 
         }
     }
 
@@ -190,7 +190,12 @@ class MainEntry : ScriptObject {
     }
 
     void PlayerCamera(float timeStep) {
-        cameraNode.position = playerNode.position + Vector3(0, 3, -10);
+        const float MOVE_SPEED = 5.0f;
+
+        // cameraNode.position = playerNode.position + Vector3(0, 3, -10);
+
+        Vector3 playerPos = playerNode.position + Vector3(0, 2.5, -20);
+        cameraNode.position = cameraNode.position.Lerp(playerPos, MOVE_SPEED * timeStep);
     }
 
     void SpawnPlayer() {
