@@ -5,9 +5,9 @@
 	<attribute name="Smoothing Constant" value="50" />
 	<attribute name="Snap Threshold" value="5" />
 	<attribute name="Elapsed Time" value="0" />
-	<attribute name="Next Replicated Node ID" value="1161" />
-	<attribute name="Next Replicated Component ID" value="3250" />
-	<attribute name="Next Local Node ID" value="16777223" />
+	<attribute name="Next Replicated Node ID" value="1167" />
+	<attribute name="Next Replicated Component ID" value="3271" />
+	<attribute name="Next Local Node ID" value="16777224" />
 	<attribute name="Next Local Component ID" value="16777218" />
 	<attribute name="Variables" />
 	<attribute name="Variable Names" value="PrefabResource" />
@@ -79,6 +79,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2972">
+					<attribute name="Physics Position" value="-40 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -114,6 +115,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2975">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 49 10" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -149,6 +152,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2978">
+					<attribute name="Physics Position" value="-50 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -184,6 +188,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2981">
+					<attribute name="Physics Position" value="-10 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -219,6 +224,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2984">
+					<attribute name="Physics Position" value="-30 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -254,6 +260,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2987">
+					<attribute name="Physics Position" value="-20 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -289,6 +296,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2990">
+					<attribute name="Physics Position" value="20 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -359,6 +367,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2996">
+					<attribute name="Physics Position" value="10 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -394,6 +403,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="2999">
+					<attribute name="Physics Position" value="50 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -429,6 +439,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3002">
+					<attribute name="Physics Position" value="30 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -464,6 +475,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3005">
+					<attribute name="Physics Position" value="40 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -499,6 +511,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3008">
+					<attribute name="Physics Position" value="-60 0 0" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -534,6 +547,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3011">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 9 10" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -569,6 +584,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3014">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 19 10" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -604,6 +621,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3017">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 29 10" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -639,6 +658,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3020">
+					<attribute name="Physics Rotation" value="1.50874e-07 0.707107 -0.707107 -1.50874e-07" />
+					<attribute name="Physics Position" value="60 39 10" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -954,6 +975,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3035">
+					<attribute name="Physics Position" value="-40.5 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -989,6 +1011,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3038">
+					<attribute name="Physics Position" value="-32.5 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1024,6 +1047,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3041">
+					<attribute name="Physics Position" value="-24.5 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1059,6 +1083,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3044">
+					<attribute name="Physics Position" value="-40 40 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1094,6 +1119,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3047">
+					<attribute name="Physics Position" value="-55.5 5.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1129,6 +1155,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3050">
+					<attribute name="Physics Position" value="-47.5 5.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1164,6 +1191,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3053">
+					<attribute name="Physics Position" value="-64 43 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1199,6 +1227,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3056">
+					<attribute name="Physics Position" value="48 38.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1234,6 +1263,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3059">
+					<attribute name="Physics Position" value="44 6.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1269,6 +1299,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3062">
+					<attribute name="Physics Position" value="52 6.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1304,6 +1335,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3065">
+					<attribute name="Physics Position" value="0 35.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1339,6 +1371,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3068">
+					<attribute name="Physics Position" value="8 35.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1374,6 +1407,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3071">
+					<attribute name="Physics Position" value="16 35.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1409,6 +1443,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3074">
+					<attribute name="Physics Position" value="24 35.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1444,6 +1479,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3077">
+					<attribute name="Physics Position" value="40 38.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1479,6 +1515,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3080">
+					<attribute name="Physics Position" value="-56 43 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1514,6 +1551,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3083">
+					<attribute name="Physics Position" value="24.5 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1549,6 +1587,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3086">
+					<attribute name="Physics Position" value="32.5 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1584,6 +1623,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3089">
+					<attribute name="Physics Position" value="40.5 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1619,6 +1659,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3092">
+					<attribute name="Physics Position" value="31.5 3.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1654,6 +1695,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3095">
+					<attribute name="Physics Position" value="39.5 3.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1689,6 +1731,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3098">
+					<attribute name="Physics Position" value="-16 5.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1724,6 +1767,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3101">
+					<attribute name="Physics Position" value="-8 5.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1759,6 +1803,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3104">
+					<attribute name="Physics Position" value="-17.5 40 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1794,6 +1839,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3107">
+					<attribute name="Physics Position" value="-9.5 40 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1829,6 +1875,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3110">
+					<attribute name="Physics Position" value="-1.5 40 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1864,6 +1911,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3113">
+					<attribute name="Physics Position" value="-26 47.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1899,6 +1947,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3116">
+					<attribute name="Physics Position" value="-18 47.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1934,6 +1983,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3119">
+					<attribute name="Physics Position" value="-10 47.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -1969,6 +2019,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3122">
+					<attribute name="Physics Position" value="5.5 47.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2004,6 +2055,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3125">
+					<attribute name="Physics Position" value="13.5 47.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2039,6 +2091,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3128">
+					<attribute name="Physics Position" value="21.5 47.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2074,6 +2127,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3131">
+					<attribute name="Physics Position" value="-50.5 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2109,6 +2163,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3134">
+					<attribute name="Physics Position" value="-42.5 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2144,6 +2199,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3137">
+					<attribute name="Physics Position" value="-34.5 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2179,6 +2235,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3140">
+					<attribute name="Physics Position" value="-16 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2214,6 +2271,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3143">
+					<attribute name="Physics Position" value="-8 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2249,6 +2307,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3146">
+					<attribute name="Physics Position" value="0 29.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2284,6 +2343,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3149">
+					<attribute name="Physics Position" value="-40 15 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2319,6 +2379,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3152">
+					<attribute name="Physics Position" value="-64 18 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2354,6 +2415,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3155">
+					<attribute name="Physics Position" value="48 13 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2389,6 +2451,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3158">
+					<attribute name="Physics Position" value="0 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2424,6 +2487,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3161">
+					<attribute name="Physics Position" value="8 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2459,6 +2523,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3164">
+					<attribute name="Physics Position" value="16 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2494,6 +2559,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3167">
+					<attribute name="Physics Position" value="24 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2529,6 +2595,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3170">
+					<attribute name="Physics Position" value="40 13 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2564,6 +2631,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3173">
+					<attribute name="Physics Position" value="-56 18 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2599,6 +2667,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3176">
+					<attribute name="Physics Position" value="-20 15 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2634,6 +2703,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3179">
+					<attribute name="Physics Position" value="-12 15 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2669,6 +2739,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3182">
+					<attribute name="Physics Position" value="-4 15 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2704,6 +2775,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3185">
+					<attribute name="Physics Position" value="-26 22 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2739,6 +2811,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3188">
+					<attribute name="Physics Position" value="-18 22 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2774,6 +2847,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3191">
+					<attribute name="Physics Position" value="-10 22 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2809,6 +2883,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3194">
+					<attribute name="Physics Position" value="5.5 22 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2844,6 +2919,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3197">
+					<attribute name="Physics Position" value="13.5 22 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2879,6 +2955,7 @@
 					<attribute name="Offset Position" value="4 -0.257 2" />
 				</component>
 				<component type="RigidBody" id="3200">
+					<attribute name="Physics Position" value="21.5 22 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2914,6 +2991,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3203">
+					<attribute name="Physics Rotation" value="-4.37114e-08 0 1 0" />
+					<attribute name="Physics Position" value="-40 40 8" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2949,6 +3028,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3206">
+					<attribute name="Physics Position" value="32 35.5 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -2984,6 +3064,8 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3209">
+					<attribute name="Physics Rotation" value="-4.37114e-08 0 1 0" />
+					<attribute name="Physics Position" value="-40 15 8" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -3019,6 +3101,7 @@
 					<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_PlatformRamp_000_Col.mdl" />
 				</component>
 				<component type="RigidBody" id="3212">
+					<attribute name="Physics Position" value="32 10 4" />
 					<attribute name="Friction" value="0" />
 					<attribute name="Anisotropic Friction" value="0 0 0" />
 					<attribute name="Linear Factor" value="0 0 0" />
@@ -3287,6 +3370,8 @@
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
 			<component type="RigidBody" id="3236">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 49 0" />
 				<attribute name="Friction" value="0" />
 				<attribute name="Anisotropic Friction" value="0 0 0" />
 				<attribute name="Linear Factor" value="0 0 0" />
@@ -3322,6 +3407,8 @@
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
 			<component type="RigidBody" id="3239">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 9 0" />
 				<attribute name="Friction" value="0" />
 				<attribute name="Anisotropic Friction" value="0 0 0" />
 				<attribute name="Linear Factor" value="0 0 0" />
@@ -3357,6 +3444,8 @@
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
 			<component type="RigidBody" id="3242">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 19 0" />
 				<attribute name="Friction" value="0" />
 				<attribute name="Anisotropic Friction" value="0 0 0" />
 				<attribute name="Linear Factor" value="0 0 0" />
@@ -3392,6 +3481,8 @@
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
 			<component type="RigidBody" id="3245">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 29 0" />
 				<attribute name="Friction" value="0" />
 				<attribute name="Anisotropic Friction" value="0 0 0" />
 				<attribute name="Linear Factor" value="0 0 0" />
@@ -3427,6 +3518,8 @@
 				<attribute name="Model" value="Model;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/LDAssets/Models/LD_Floor_000_Col.mdl" />
 			</component>
 			<component type="RigidBody" id="3248">
+				<attribute name="Physics Rotation" value="0.707107 0 0 -0.707107" />
+				<attribute name="Physics Position" value="-60 39 0" />
 				<attribute name="Friction" value="0" />
 				<attribute name="Anisotropic Friction" value="0 0 0" />
 				<attribute name="Linear Factor" value="0 0 0" />
@@ -3434,6 +3527,138 @@
 				<attribute name="Linear Rest Threshold" value="0" />
 				<attribute name="Angular Rest Threshold" value="0" />
 				<attribute name="Contact Threshold" value="0" />
+			</component>
+		</node>
+	</node>
+	<node id="16777223">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="TriggerVolumeGroup" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="1161">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="TriggerVolume" />
+			<attribute name="Position" value="-19 47.5 8" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="7.67579 9.91986 10.1497" />
+			<attribute name="Variables" />
+			<component type="ScriptInstance" id="3250">
+				<attribute name="Delayed Method Calls" value="0" />
+				<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayerTrigger.as" />
+				<attribute name="Class Name" value="CtrlsPlayerTrigger" />
+				<attribute name="onEnterEventName" value="PlayerEvent_TestVol_Entered" />
+				<attribute name="onExitEventName" value="PlayerEvent_TestVol_Exited" />
+			</component>
+			<component type="CollisionShape" id="3251">
+				<attribute name="Offset Position" value="0 0.5 0" />
+			</component>
+		</node>
+		<node id="1162">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="TriggerVolume" />
+			<attribute name="Position" value="-35 28 8" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="7.67579 9.91986 10.1497" />
+			<attribute name="Variables" />
+			<component type="ScriptInstance" id="3254">
+				<attribute name="Delayed Method Calls" value="0" />
+				<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayerTrigger.as" />
+				<attribute name="Class Name" value="CtrlsPlayerTrigger" />
+				<attribute name="onEnterEventName" value="PlayerEvent_TestVol_Entered" />
+				<attribute name="onExitEventName" value="PlayerEvent_TestVol_Exited" />
+			</component>
+			<component type="CollisionShape" id="3258">
+				<attribute name="Offset Position" value="0 0.5 0" />
+			</component>
+		</node>
+		<node id="1163">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="TriggerVolume" />
+			<attribute name="Position" value="-10 12.5 8" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="7.67579 9.91986 10.1497" />
+			<attribute name="Variables" />
+			<component type="ScriptInstance" id="3259">
+				<attribute name="Delayed Method Calls" value="0" />
+				<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayerTrigger.as" />
+				<attribute name="Class Name" value="CtrlsPlayerTrigger" />
+				<attribute name="onEnterEventName" value="PlayerEvent_TestVol_Entered" />
+				<attribute name="onExitEventName" value="PlayerEvent_TestVol_Exited" />
+			</component>
+			<component type="RigidBody" id="3260">
+				<attribute name="Physics Position" value="-10 12.5 8" />
+				<attribute name="Is Trigger" value="true" />
+			</component>
+			<component type="CollisionShape" id="3261">
+				<attribute name="Offset Position" value="0 0.5 0" />
+			</component>
+		</node>
+		<node id="1164">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="TriggerVolume" />
+			<attribute name="Position" value="19 20.5 8" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="7.67579 9.91986 10.1497" />
+			<attribute name="Variables" />
+			<component type="ScriptInstance" id="3262">
+				<attribute name="Delayed Method Calls" value="0" />
+				<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayerTrigger.as" />
+				<attribute name="Class Name" value="CtrlsPlayerTrigger" />
+				<attribute name="onEnterEventName" value="PlayerEvent_TestVol_Entered" />
+				<attribute name="onExitEventName" value="PlayerEvent_TestVol_Exited" />
+			</component>
+			<component type="RigidBody" id="3263">
+				<attribute name="Physics Position" value="19 20.5 8" />
+				<attribute name="Is Trigger" value="true" />
+			</component>
+			<component type="CollisionShape" id="3264">
+				<attribute name="Offset Position" value="0 0.5 0" />
+			</component>
+		</node>
+		<node id="1165">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="TriggerVolume" />
+			<attribute name="Position" value="7 34.5 8" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="7.67579 9.91986 10.1497" />
+			<attribute name="Variables" />
+			<component type="ScriptInstance" id="3265">
+				<attribute name="Delayed Method Calls" value="0" />
+				<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayerTrigger.as" />
+				<attribute name="Class Name" value="CtrlsPlayerTrigger" />
+				<attribute name="onEnterEventName" value="PlayerEvent_TestVol_Entered" />
+				<attribute name="onExitEventName" value="PlayerEvent_TestVol_Exited" />
+			</component>
+			<component type="RigidBody" id="3266">
+				<attribute name="Physics Position" value="7 34.5 8" />
+				<attribute name="Is Trigger" value="true" />
+			</component>
+			<component type="CollisionShape" id="3267">
+				<attribute name="Offset Position" value="0 0.5 0" />
+			</component>
+		</node>
+		<node id="1166">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="TriggerVolume" />
+			<attribute name="Position" value="25 47.5 8" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="7.67579 9.91986 10.1497" />
+			<attribute name="Variables" />
+			<component type="ScriptInstance" id="3268">
+				<attribute name="Delayed Method Calls" value="0" />
+				<attribute name="Script File" value="ScriptFile;bf345580-b572-11e4-92ca-089e01d3de8a_Ctrls/Scripts/CtrlsPlayerTrigger.as" />
+				<attribute name="Class Name" value="CtrlsPlayerTrigger" />
+				<attribute name="onEnterEventName" value="PlayerEvent_TestVol_Entered" />
+				<attribute name="onExitEventName" value="PlayerEvent_TestVol_Exited" />
+			</component>
+			<component type="RigidBody" id="3269">
+				<attribute name="Physics Position" value="25 47.5 8" />
+				<attribute name="Is Trigger" value="true" />
+			</component>
+			<component type="CollisionShape" id="3270">
+				<attribute name="Offset Position" value="0 0.5 0" />
 			</component>
 		</node>
 	</node>

@@ -46,6 +46,8 @@ class CtrlsPlayerController : PlayerController {
 
     void HandlePostUpdate(StringHash eventType, VariantMap& eventData) {
     }
+
+
 }
 
 const float BRAKE_FORCE = 0.2f;
@@ -75,7 +77,7 @@ class CtrlsPlayer : Player {
     void Start() {
         // log.Info("Starting CtrlsPlayer : " + self.id);
 
-        // SubscribeToEvents();
+        SubscribeToEvents();
         // controller.Start();
     }
 
@@ -96,17 +98,28 @@ class CtrlsPlayer : Player {
     }
 
     void Stop() {
-        // UnsubscribeFromAllEvents();
+        UnsubscribeFromAllEvents();
         // controller.Stop();
     }
 
     void SubscribeToEvents()
     {
         // Subscribe to Update event for setting the character controls before physics simulation
-        SubscribeToEvent("Update", "HandleUpdate");
+        // subscribetoevent("Update", "HandleUpdate");
 
         // Subscribe to PostUpdate event for updating the camera position after physics simulation
-        SubscribeToEvent("PostUpdate", "HandlePostUpdate");
+        // SubscribeToEvent("PostUpdate", "HandlePostUpdate");
+
+        SubscribeToEvent("PlayerEvent_TestVol_Entered", "HandlePlayerEvent_TestVol_Entered");
+        SubscribeToEvent("PlayerEvent_TestVol_Exited", "HandlePlayerEvent_TestVol_Exited");
+    }
+
+    void HandlePlayerEvent_TestVol_Entered(StringHash eventType, VariantMap& eventData) {
+        log.Info("HandlePlayerEvent_TestVol_Entered triggered");
+    }
+
+    void HandlePlayerEvent_TestVol_Exited(StringHash eventType, VariantMap& eventData) {
+        log.Info("HandlePlayerEvent_TestVol_Exited triggered");
     }
 
     void HandleUpdate(StringHash eventType, VariantMap& eventData) {

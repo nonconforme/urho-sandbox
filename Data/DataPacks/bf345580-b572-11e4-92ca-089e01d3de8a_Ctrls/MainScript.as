@@ -143,7 +143,7 @@ class MainEntry : ScriptObject {
     void HandlePostRenderUpdate()
     {
         if (levelScene.physicsWorld !is null) {
-            // levelScene.physicsWorld.DrawDebugGeometry(true);
+            levelScene.physicsWorld.DrawDebugGeometry(true);
         }
     }
 
