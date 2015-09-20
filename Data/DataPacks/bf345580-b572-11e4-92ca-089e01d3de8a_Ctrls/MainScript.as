@@ -49,23 +49,22 @@ class MainEntry : ScriptObject {
         Camera@ camera = cameraNode.CreateComponent("Camera");
         camera.farClip = 300.0f;
         renderer.viewports[0] = Viewport(levelScene, camera);
+
+        globalVars["GlobalCamera"] = cameraNode;
     }
 
     void HandleKeyDown(StringHash eventType, VariantMap& eventData) {
         int key = eventData["Key"].GetInt();
 
         if (key == KEY_L) {
-            if (!levelLoaded) {
-                levelScene.LoadAsyncXML(cache.GetFile(entryLevelRes));
-                levelLoaded = true;
+            if (!levelLoaded) { 
+                LoadScene();
             }
             else {
                 if (!levelScene.asyncLoading) {
-                    levelScene.RemoveAllChildren();
-                    levelLoaded = false;
+                    UnloadScene();
                 }
             }
-
         }
         else if (key == KEY_K) {
             SpawnPlayer();
@@ -85,11 +84,21 @@ class MainEntry : ScriptObject {
             log.Info("Loading Level Progress : " + levelScene.asyncProgress);
         }
 
-        // Take the frame time step, which is stored as a float
         float timeStep = eventData["TimeStep"].GetFloat();
-
-        // Move the camera, scale movement with time step
         MoveCamera(timeStep);
+    }
+
+    void LoadScene() {
+        levelScene.LoadAsyncXML(cache.GetFile(entryLevelRes));
+        levelLoaded = true;
+    }
+
+    void UnloadScene() {
+        @playerNode = null;
+        @player = null;
+
+        levelScene.RemoveAllChildren();
+        levelLoaded = false;
     }
 
     void HandleAsyncLoadFinished(StringHash eventType, VariantMap& eventData) {
@@ -109,9 +118,6 @@ class MainEntry : ScriptObject {
     void MoveCamera(float timeStep) {
         if (playerNode is null) { 
             FreeCamera(timeStep);
-        }
-        else { 
-            PlayerCamera(timeStep); 
         }
     }
 
@@ -144,13 +150,6 @@ class MainEntry : ScriptObject {
             cameraNode.Translate(Vector3(-1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
         if (input.keyDown['D'])
             cameraNode.Translate(Vector3(1.0f, 0.0f, 0.0f) * MOVE_SPEED * timeStep);
-    }
-
-    void PlayerCamera(float timeStep) {
-        const float MOVE_SPEED = 5.0f;
-
-        Vector3 playerPos = playerNode.position + Vector3(0, 2.5, -20);
-        cameraNode.position = cameraNode.position.Lerp(playerPos, MOVE_SPEED * timeStep);
     }
 
     void SpawnPlayer() {
