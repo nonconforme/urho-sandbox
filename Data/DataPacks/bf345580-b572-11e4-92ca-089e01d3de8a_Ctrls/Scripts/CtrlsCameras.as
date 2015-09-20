@@ -1,0 +1,3 @@
+class CtrlsSideScrollCamera : ScriptObject {
+
+}

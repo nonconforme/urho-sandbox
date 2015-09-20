@@ -1,84 +1,15 @@
-//
-//
-
-#include "Global/Scripts/Utilities/Sample.as"
-#include "Global/Scripts/GameClasses.as"
-
-// Scene@ mainScene;
-
-// Node@ prefabManager;
-// Array<Scene@> gameScenes;
-
-// GameInfo@ gameInfo;
-
-// Node@ someNode;
-
-// class GameGlobals {
-//     String something;
-
-//     GameGlobals() {
-//         something = "foobars";
-//     }
-// }
-    
-// GameGlobals@ gameGlobals;
-
 Scene@ gscene;
-Node@ gameManager;
-Node@ gameType;
+Node@ mainEntry;
 
 void Start()
 {
-    SampleStart();
     CreateStartupScene();
     CallMainScript();
 }
 
 void CreateStartupScene() {
     gscene = Scene("GlobalScene");
-
-    // Node@ testNode = mainScene.CreateChild("TestNode");
-    // for (uint i = 0; i < testNode.attributes.length; i++) {
-    //     log.Info("Attr Value : " + testNode.attributes[i].ToString());
-    // }
-
-    // someNode = testNode;
-
-    // bool result = mainScene.SetAttribute("TestAttr", Variant("this-is-a-test-value"));
-    // if (!result) {
-    //     log.Info("Could not set attribute.");
-    // }
-    // log.Info("Test Attr : " + mainScene.GetAttribute("TestAttr").ToString());
-
-    // gameScenes.Push(mainScene);
-
-    // Enable access to this script file & scene from the console
-    script.defaultScene = gscene;
-    script.defaultScriptFile = scriptFile;
-
     gscene.CreateComponent("Octree");
-
-    // game manager
-    gameManager = gscene.CreateChild("GameManager");
-    ScriptInstance@ gmScriptInstance = gameManager.CreateComponent("ScriptInstance");
-    gmScriptInstance.CreateObject(scriptFile, "GameManager");
-    GameManager@ gameManager = cast<GameManager>(gmScriptInstance.scriptObject);
-
-    // prefab manager
-    // ScriptFile@ prefabScriptFile = cache.GetResource("ScriptFile", "Global/Scripts/Prefabs.as");
-    // if (prefabScriptFile !is null) {
-    //     prefabManager = mainScene.CreateChild("PrefabManager");
-    //     ScriptInstance@ prefabManScriptInstance = prefabManager.CreateComponent("ScriptInstance");
-    //     prefabManScriptInstance.CreateObject(prefabScriptFile, "PrefabManager");
-    //     // PrefabManager@ gameManager = cast<GameManager>(gmScriptInstance.scriptObject);
-    // }
-
-    // log.Info("List of game scenes : " + gameScenes.length);
-    // log.Info("Scene Name : " + gameScenes[0].name);
-    // log.Info("Test Attr : " + gameScenes[0].GetAttribute("TestAttr").ToString());
-
-    // gameInfo = GameInfo();
-    // gameManager.SetMainScript(gameInfo);
 }
 
 void CallMainScript() {
@@ -87,8 +18,6 @@ void CallMainScript() {
 
     for (uint i = 0; i < arguments.length; ++i) {
         String argument = arguments[i].ToLower();
-        // log.Info("Command Line Args : " + argument);
-
         if (argument[0] == '-')
         {
             argument = argument.Substring(1);
@@ -103,8 +32,8 @@ void CallMainScript() {
     if (!startPackUUID.empty) {
         ScriptFile@ mainScriptFile = cache.GetResource("ScriptFile", startPackUUID + "/MainScript.as");
         if (mainScriptFile !is null && mainScriptFile.compiled) {
-            gameType = gscene.CreateChild("GameManager");
-            ScriptInstance@ gameMainScriptInstance = gameType.CreateComponent("ScriptInstance");
+            mainEntry = gscene.CreateChild("MainEntry");
+            ScriptInstance@ gameMainScriptInstance = mainEntry.CreateComponent("ScriptInstance");
             gameMainScriptInstance.CreateObject(mainScriptFile, "MainEntry");
         }
         else {
